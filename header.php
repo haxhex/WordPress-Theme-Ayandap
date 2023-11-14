@@ -9,6 +9,9 @@
     <header>
         <h1><?php bloginfo('name'); ?></h1>
         <nav>
-            <?php wp_nav_menu(); ?>
+        <ul>
+            <li><a href="<?php echo esc_url(home_url('/')); ?>">خانه</a></li>
+            <li><a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>">درباره ما</a></li>
+        </ul>
         </nav>
     </header>
