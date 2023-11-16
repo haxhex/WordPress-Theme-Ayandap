@@ -4,3 +4,226 @@ Description: This theme designed for Ayandap
 Author: Helius
 Version: 1.0
 */
+
+* {
+    font-family: 'Iranian Sans', sans-serif;
+}
+
+.svg-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+    margin-right: 90px;
+    /* Add any other styles you want for the SVG */
+}
+.navbar {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative; /* Ensure the position is relative */
+    z-index: 2; /* Set a higher z-index to bring it to the front */
+    /* Add any other styles you want for the navbar */
+}
+
+.navbar a {
+    text-decoration: none; /* Remove underlines from links */
+    padding: 10px; /* Add padding for better spacing */
+    margin-right: 10px; /* Add margin to create space between items */    
+}
+
+.my-header {
+    margin-right: 85px;
+    margin-left: 85px;
+}
+
+.left-header {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0;
+    margin-top: 0;
+    position: fixed; /* Change from absolute to fixed */
+    top: -1px;
+    left: -498px;
+    z-index: 1;
+    overflow: hidden; /* Add overflow property to hide scrollbars */
+    opacity: 1; /* Initially hide the element */
+}
+
+body.scrolling .left-header {
+    opacity: 0; /* Show the element when scrolling stops */
+}
+
+
+.register-btn {
+    background-color: #FF8923;
+    border-radius: 36px;
+    padding: 12px 45px;
+    border: none;
+    cursor: pointer;
+}
+
+.auth {
+    display: inline-block;
+    margin-right: 435px;
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+.main-container {
+    margin-left: 120px; 
+    margin-right: 120px;
+    margin-top: 207px;
+}
+
+.contact-btn {
+    background-color: #3D37F1;
+    color: white;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 38px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.services-card {
+    background-color: #69529F;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    color: white;
+    align-items: center; /* Center vertically */
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.card-btn {
+    background-color: none;
+    border: 2px solid white;
+    border-radius: 38px;
+    width: 131px;
+    padding: 10px 5px;
+    cursor: pointer;
+    text-align: center;
+    background-color: transparent; /* Set background color to transparent */
+    color: white;
+}
+
+.card-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.service-description {
+    text-align: center;
+    padding: 50px 220px;
+
+}
+
+p {
+    line-height: 1.5; /* Adjust the value based on your preference */
+}
+
+.services-container {
+    margin-right: 130px;
+    margin-left: 130px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+
+.orange-rect {
+width: 185px;
+height: 185px;
+background: linear-gradient(52.96deg, #fbc9a4 0%, #ff884a 100%); /* Set the background color using a linear gradient */
+border-radius: 38px; /* Apply border-radius for rounded corners */
+display: flex; /* Use flexbox to center the number */
+justify-content: center; /* Center the number horizontally */
+align-items: center; /* Center the number vertically */
+color: white; /* Set the color of the number */
+font-size: 38px; /* Set the font size of the number */
+font-weight: bold;
+}
+  
+
+.success-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+.sucsess {
+width: 185px;
+margin: 10px;
+text-align: center;
+padding: 0px 90px;
+}
+
+.product {
+    margin-right: -50px;
+    overflow-x: hidden;
+    margin-top: 100px;
+    position: relative; /* Set the container to relative positioning */
+  }
+
+  .product h2 {
+    position: absolute; /* Set the <h2> to absolute positioning */
+    top: 0; /* Adjust as needed */
+    left: 0; /* Adjust as needed */
+    margin: 0; /* Remove default margin */
+    z-index: 1; /* Ensure the <h2> is above the <svg> */
+    margin-top: 220px;
+    margin-left: 400px;
+}
+
+.ex-product {
+    display: inline-block;
+    text-align: center;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.all-products {
+    position: absolute; /* Set the <h2> to absolute positioning */
+    top: 0; /* Adjust as needed */
+    left: 0; /* Adjust as needed */
+    margin: 0; /* Remove default margin */
+    z-index: 1; /* Ensure the <h2> is above the <svg> */
+    margin-top: 300px;
+    margin-left: 200px;
+}
+
+.download-app {
+    background-color: none;
+    border: 2px solid #5A5454;
+    border-radius: 38px;
+    width: 131px;
+    padding: 10px 5px;
+    cursor: pointer;
+    text-align: center;
+    background-color: transparent; /* Set background color to transparent */
+    color: #5A5454;
+}
+
+.product-desc {
+    text-align: center;
+    color: #5A5454;
+}
+
+
+  
+
+
+
+  
