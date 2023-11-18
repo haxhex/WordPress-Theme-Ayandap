@@ -15,7 +15,7 @@ Template Name: Contact
     <!-- <?php the_content(); ?> -->
 
     <div class="contact-bg">
-        <div class="contact-header">
+        <div class="about-header">
 
             <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                 width="181.158" height="53.473" viewBox="0 0 181.158 53.473">
@@ -176,7 +176,7 @@ Template Name: Contact
                     <input type="email" placeholder="آدرس ایمیل" name="email" />
                     <textarea placeholder="پیام" style="height: 150px;" name="message" rows="10" cols="50"></textarea>
                     <br />
-                    <button type="submit" class="register-btn" style="color:white; margin-right: 200px; margin-top: 5px;">ارسال
+                    <button type="submit" class="register-btn" style="color:white; margin-right: 200about-headerpx; margin-top: 5px;">ارسال
                         پیام</button>
                 </form>
             </div>
