@@ -464,3 +464,71 @@ header {
     margin-left: 10%;
     margin-top: 90px;
 }
+
+.audio-intro-bg svg {
+    float: right;
+    margin-top: -120px;
+    margin-right: -84px;
+    width: 60%;
+}
+
+
+.audio-intro-bg {
+    overflow: hidden;
+    margin-top: -96px;
+    margin-right: -8px;
+}
+
+.audio-nav {
+    direction: rtl;
+    margin-right: 27%;
+    margin-top: 35px;
+}
+
+
+.audio-nav a {
+    text-decoration: none; /* Remove underlines from links */
+    padding: 10px; /* Add padding for better spacing */
+    margin-right: 10px; 
+    color: #5A5454;
+}
+
+.download-audio-btn {
+    padding: 17px 40px;
+    background-color: #7F49C3;
+    border-radius: 38px;
+    border: none;
+    color: white;
+    margin-top: 25px;
+}
+
+.audio-app-content {
+    text-align: right;
+    direction: rtl;
+    width: 36%;
+    margin-top: -725px;
+    margin-left: 10%;
+    color: #5A5454;
+}
+
+.audio-features-content {
+    display: inline-block;
+    width: 30%;
+    direction: rtl;
+    float: right;
+    margin-right: 12%;
+    color: #5A5454;
+
+}
+
+.audio-features {
+    margin-top: 500px;
+}
+
+
+.audio-footer-image svg {
+    margin-top: 85px;
+    height: 120%;
+    margin-left: 16%;
+    margin-bottom: 50px;
+}
