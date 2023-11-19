@@ -500,6 +500,7 @@ header {
     border: none;
     color: white;
     margin-top: 25px;
+    cursor: pointer;
 }
 
 .audio-app-content {
