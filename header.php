@@ -5,10 +5,12 @@
     <link href="https://fonts.cdnfonts.com/css/iranian-sans" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
     <?php wp_head(); ?>
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  </head>
 <body <?php body_class(); ?>>
-    <header>
-        
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <header>    
     <svg  class="svg-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="181.158" height="53.473" viewBox="0 0 181.158 53.473">
   <defs>
     <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
@@ -88,19 +90,8 @@
     </g>
   </g>
 </svg>
-
-        <nav class="navbar">
-            <a href="<?php echo esc_url(home_url('/')); ?>">خانه</a>
-            <a href="<?php echo esc_url(get_permalink(get_page_by_path('services'))); ?>">سرویس‌ها</a>
-            <a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>">درباره ما</a>
-            <a style="color:white;" href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>">تماس با ما</a>
-            <a style="color:white;" href="<?php echo esc_url(get_permalink(get_page_by_path('blog'))); ?>">بلاگ</a>
-            <div class="auth">
-            <a style="color:white;" href="<?php echo esc_url(get_permalink(get_page_by_path('login'))); ?>">ورود</a>
-            <button class="register-btn" style="color:white;" href="<?php echo esc_url(get_permalink(get_page_by_path('register'))); ?>">ثبت نام</button>
-            </div>
-        </nav>
-        <svg class="left-header" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1446.045" height="365.982" viewBox="0 0 1446.045 365.982">
+<div class="left-header">
+<svg style="width: 130%; height: 100%;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1446.045" height="365.982" viewBox="0 0 1446.045 365.982">
   <defs>
     <linearGradient id="linear-gradient" x1="0.871" y1="0.339" x2="-0.335" y2="-0.449" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#5c57f2"/>
@@ -109,6 +100,18 @@
   </defs>
   <path id="Path_1858" data-name="Path 1858" d="M7921.6-454.355C7760.239-420.71,7664.956-445,7492.956-404s-160,94-392.829,141.863-470.172-89.615-470.172-89.615V-618h1446S8082.956-488,7921.6-454.355Z" transform="translate(-6629.955 618)" fill="url(#linear-gradient)"/>
 </svg>
+</div>
+        <nav class="navbar">
+            <a href="<?php echo esc_url(home_url('/')); ?>">خانه</a>
+            <a href="<?php echo esc_url(get_permalink(get_page_by_path('services'))); ?>">سرویس‌ها</a>
+            <a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>">درباره ما</a>
+            <a class="white-nav" href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>">تماس با ما</a>
+            <a class="white-nav" href="<?php echo esc_url(get_permalink(get_page_by_path('blog'))); ?>">بلاگ</a>
+            <div class="auth">
+            <a class="white-nav" href="<?php echo esc_url(get_permalink(get_page_by_path('login'))); ?>">ورود</a>
+            <button class="register-btn" style="color:white;" href="<?php echo esc_url(get_permalink(get_page_by_path('register'))); ?>">ثبت نام</button>
+            </div>
+        </nav>
 </div>
 
 <script>

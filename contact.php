@@ -17,7 +17,7 @@ Template Name: Contact
     <div class="contact-bg">
         <div class="about-header">
 
-            <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            <svg class="svg-icon-contact" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                 width="181.158" height="53.473" viewBox="0 0 181.158 53.473">
                 <defs>
                     <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">

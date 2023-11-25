@@ -22,7 +22,7 @@ Template Name: Audio
             <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>">تماس
                 با ما</a>
             <a href="<?php echo esc_url(get_permalink(get_page_by_path('blog'))); ?>">بلاگ</a>
-            <div class="auth" style="margin-right: 372px;">
+            <div class="auth auth-audio">
                 <a href="<?php echo esc_url(get_permalink(get_page_by_path('login'))); ?>">ورود</a>
                 <button class="register-btn" style="color:white;"
                     href="<?php echo esc_url(get_permalink(get_page_by_path('register'))); ?>">ثبت نام</button>
