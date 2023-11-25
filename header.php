@@ -101,12 +101,14 @@
   <path id="Path_1858" data-name="Path 1858" d="M7921.6-454.355C7760.239-420.71,7664.956-445,7492.956-404s-160,94-392.829,141.863-470.172-89.615-470.172-89.615V-618h1446S8082.956-488,7921.6-454.355Z" transform="translate(-6629.955 618)" fill="url(#linear-gradient)"/>
 </svg>
 </div>
+
         <nav class="navbar">
             <a href="<?php echo esc_url(home_url('/')); ?>">خانه</a>
-            <a href="<?php echo esc_url(get_permalink(get_page_by_path('services'))); ?>">سرویس‌ها</a>
+            <!-- <a href="<?php echo esc_url(get_permalink(get_page_by_path('services'))); ?>">سرویس‌ها</a> -->
+            <a href="#services">سرویس‌ها</a>
             <a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>">درباره ما</a>
             <a class="white-nav" href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>">تماس با ما</a>
-            <a class="white-nav" href="<?php echo esc_url(get_permalink(get_page_by_path('blog'))); ?>">بلاگ</a>
+            <a class="white-nav" href="#blog">بلاگ</a>
             <div class="auth">
             <a class="white-nav" href="<?php echo esc_url(get_permalink(get_page_by_path('login'))); ?>">ورود</a>
             <button class="register-btn" style="color:white;" href="<?php echo esc_url(get_permalink(get_page_by_path('register'))); ?>">ثبت نام</button>

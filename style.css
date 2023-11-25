@@ -237,10 +237,19 @@ body.scrolling .left-header {
     color: white;
 }
 
+/* .card-btn a {
+    text-decoration: none;
+    color: white;
+} */
+
 .card-btn:hover {
     background-color: white;
     color: black;
 }
+
+/* .card-btn:hover a {
+    color: black;
+} */
 
 .service-description {
     text-align: center;
@@ -1024,7 +1033,7 @@ text-align: right;
     }
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (min-width: 768px) {
     .audio-footer-image svg {
         margin-left: 16%;
     }
@@ -1159,6 +1168,10 @@ text-align: right;
 
     }
 
+    .audio-features-content {
+        width: 100%;
+    }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -1209,6 +1222,3 @@ text-align: right;
     margin-top: 20px;
  }
 }
-
-
- 
