@@ -22,7 +22,7 @@ Template Name: Game
             <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>">تماس
                 با ما</a>
             <a href="<?php echo esc_url(get_permalink(get_page_by_path('blog'))); ?>">بلاگ</a>
-            <div class="auth" style="margin-right: 372px;">
+            <div class="auth game-auth">
                 <a href="<?php echo esc_url(get_permalink(get_page_by_path('login'))); ?>">ورود</a>
                 <button class="register-btn" style="color:white;"
                     href="<?php echo esc_url(get_permalink(get_page_by_path('register'))); ?>">ثبت نام</button>
@@ -157,7 +157,7 @@ Template Name: Game
         <h2 style="font-weight: normal; margin-top: 87px;">ویژگی های اپلیکیشن گیم</h2>
         <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون  </p>
         </div>
-        <div class="audio-features-content">
+        <div class="audio-features-content game-players">
         <svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 624.766 446.495">
   <g id="Group_614" data-name="Group 614" transform="translate(-206.333 -230.274)">
     <g id="Group_604" data-name="Group 604" transform="translate(206.333 406.597)">
@@ -258,7 +258,7 @@ Template Name: Game
 
         </div>
     </div>
-<div class="audio-footer-image">
+<div class="audio-footer-image game-footer-img">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1065.45" height="870.829" viewBox="0 0 1065.45 870.829">
   <defs>
     <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 1080 1920">

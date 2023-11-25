@@ -22,7 +22,7 @@ Template Name: Bluetooth
             <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>">تماس
                 با ما</a>
             <a href="<?php echo esc_url(get_permalink(get_page_by_path('blog'))); ?>">بلاگ</a>
-            <div class="auth" style="margin-right: 372px;">
+            <div class="auth game-auth">
                 <a href="<?php echo esc_url(get_permalink(get_page_by_path('login'))); ?>">ورود</a>
                 <button class="register-btn" style="color:white;"
                     href="<?php echo esc_url(get_permalink(get_page_by_path('register'))); ?>">ثبت نام</button>
@@ -520,7 +520,7 @@ Template Name: Bluetooth
             </svg>
 
         </div>
-        <div class="audio-app-content" style="margin-left: 7%; width: 34%;">
+        <div class="audio-app-content bluetooth-content">
             <h2 style="font-weight: normal;">خدمات مبتنی بر بلوتوث</h2>
             <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
                 متون بلکه روزنامه و مجله در ستون لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
@@ -537,7 +537,7 @@ Template Name: Bluetooth
                 از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون لورم ایپسوم متن ساختگی با تولید سادگی
                 نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون </p>
         </div>
-        <div class="audio-features-content">
+        <div class="audio-features-content bluetooth-features">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="550"
                 height="550" viewBox="0 0 637.862 637.862">
                 <defs>
@@ -1007,8 +1007,8 @@ Template Name: Bluetooth
     
     <div class="audio-features" style="margin-top: 82%;">
 
-        <div class="audio-features-content">
-        <svg style="margin-bottom: 100px;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="575.482" height="511.804" viewBox="0 0 575.482 511.804">
+        <div class="audio-features-content bluetooth-features bluetooth-bottom">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="575.482" height="511.804" viewBox="0 0 575.482 511.804">
   <defs>
     <clipPath id="clip-path">
       <path id="Path_2521" data-name="Path 2521" d="M469.78,265.088l-100.2-82.319.028-.023-.94-.726-7.712-6.336-.241-.2-.24.2-7.712,6.336-.94.726.027.023-52.1,42.807H129.134l-41.71,64.287H98.941V408.108H266.9v-.265H458.516V270.4l2.131,1.751Z" transform="translate(-87.423 -175.483)" fill="none"/>
@@ -1414,8 +1414,8 @@ Template Name: Bluetooth
   </g>
         </svg>
         </div>
-        <div class="audio-features-content" style="width: 33%;">
-            <p style="margin-top: 90px; margin-right: 13%;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون  </p>
+        <div class="audio-features-content bluetooth-snd-cont">
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون  </p>
         </div>
     </div>
     <?php endwhile; endif; ?>
