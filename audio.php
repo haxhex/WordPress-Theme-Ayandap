@@ -10,6 +10,7 @@ Template Name: Audio
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اپ صوتی</title>
 </head>
 
 <div id="content">
@@ -29,6 +30,24 @@ Template Name: Audio
                     href="<?php echo esc_url(get_permalink(get_page_by_path('register'))); ?>">ثبت نام</button>
             </div>
         </nav>
+
+        <div>
+        <nav class="ham-navbar" style="top: 0;">
+        <label class="menu-icon" for="menu-btn" style="top: 29px;">&#9776;</label>
+        <ul class="menu">
+            <li class="menu-item"><a href="<?php echo esc_url(home_url('/')); ?>">خانه</a></li>
+            <li class="menu-item"><a href="#services">سرویس‌ها</a></li>
+            <li class="menu-item"><a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>">درباره ما</a></li>
+            <li class="menu-item"><a class="white-nav" href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>">تماس با ما</a></li>
+            <li class="menu-item"><a class="white-nav" href="#blog">بلاگ</a></li>
+        </ul>
+    </nav>
+    <div class="small-auth about-auth" style="direction: rtl;">
+          <div class="auth"><a class="white-nav" href="<?php echo esc_url(get_permalink(get_page_by_path('login'))); ?>">ورود</a></div>
+          <div class="auth"><button class="register-btn" style="color:white;" href="<?php echo esc_url(get_permalink(get_page_by_path('register'))); ?>">ثبت نام</button></div>
+    </div>
+    </div>
+
     </div>
     <div class="audio-app-intro">
         <div class="audio-intro-bg">
@@ -409,3 +428,55 @@ Template Name: Audio
 </div>
     <?php endwhile; endif; ?>
 </div>
+
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var body = document.body;
+            var leftHeader = document.querySelector('.left-header');
+            const hamMenue = document.querySelector('.ham-navbar');
+
+            function handleScroll() {
+                if (window.scrollY <= 100) { // Check if at the top of the page
+                    leftHeader.style.display = 'block'; // Show the header
+                    hamMenue.style.display = 'inline-block';
+                } else {
+                    leftHeader.style.display = 'none'; // Hide the header
+                    hamMenue.style.display = 'none';
+                }
+            }
+
+            window.addEventListener("scroll", function() {
+                body.classList.add('scrolling');
+                clearTimeout(window.scrollTimer);
+                window.scrollTimer = setTimeout(function() {
+                    body.classList.remove('scrolling');
+                }, 250);
+
+                handleScroll(); // Call the function to handle scroll
+            });
+
+            // Initial check for page load
+            handleScroll();
+        });
+        document.querySelector('.menu-icon').addEventListener('click', function() {
+    const nav = document.querySelector('.ham-navbar');
+    const menu = document.querySelector('.menu');
+    
+    menu.classList.toggle('show');
+    nav.style.backgroundColor = menu.classList.contains('show') ? 'white' : 'transparent';
+});
+    function updateTransform() {
+            var group = document.getElementById("Group_594");
+            if (window.innerWidth <= 768) {
+                group.setAttribute("transform", "translate(720, -600) scale(2)");
+            } else {
+                group.setAttribute("transform", "translate(1334.824, -242.79)");
+            }
+        }
+
+        // Initial call to set the transform on page load
+        updateTransform();
+
+        // Update the transform when the window is resized
+        window.addEventListener("resize", updateTransform);
+</script>

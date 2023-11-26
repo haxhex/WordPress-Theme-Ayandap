@@ -8,6 +8,7 @@ Template Name: About
 <head>
     <link href="https://fonts.cdnfonts.com/css/iranian-sans" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+    <title>درباره ما</title>
 </head>
 <div id="content">
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -158,6 +159,24 @@ Template Name: About
                     href="<?php echo esc_url(get_permalink(get_page_by_path('register'))); ?>">ثبت نام</button>
             </div>
         </nav>
+
+        <div>
+        <nav class="ham-navbar" style="top: 0;">
+        <label class="menu-icon" for="menu-btn" style="top: 29px;">&#9776;</label>
+        <ul class="menu">
+            <li class="menu-item"><a href="<?php echo esc_url(home_url('/')); ?>">خانه</a></li>
+            <li class="menu-item"><a href="#services">سرویس‌ها</a></li>
+            <li class="menu-item"><a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>">درباره ما</a></li>
+            <li class="menu-item"><a class="white-nav" href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>">تماس با ما</a></li>
+            <li class="menu-item"><a class="white-nav" href="#blog">بلاگ</a></li>
+        </ul>
+    </nav>
+    <div class="small-auth about-auth" style="direction: rtl;">
+          <div class="auth"><a class="white-nav" href="<?php echo esc_url(get_permalink(get_page_by_path('login'))); ?>">ورود</a></div>
+          <div class="auth"><button class="register-btn" style="color:white;" href="<?php echo esc_url(get_permalink(get_page_by_path('register'))); ?>">ثبت نام</button></div>
+    </div>
+    </div>
+
     </div>
     <div class="about-content">
         <h2 style="font-weight: normal;">درباره ما</h2>
@@ -167,105 +186,43 @@ Template Name: About
     <?php endwhile; endif; ?>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- <?php get_footer(); ?> -->
+
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var body = document.body;
+            var leftHeader = document.querySelector('.left-header');
+            const hamMenue = document.querySelector('.ham-navbar');
+
+            function handleScroll() {
+                if (window.scrollY <= 100) { // Check if at the top of the page
+                    leftHeader.style.display = 'block'; // Show the header
+                    hamMenue.style.display = 'inline-block';
+                } else {
+                    leftHeader.style.display = 'none'; // Hide the header
+                    hamMenue.style.display = 'none';
+                }
+            }
+
+            window.addEventListener("scroll", function() {
+                body.classList.add('scrolling');
+                clearTimeout(window.scrollTimer);
+                window.scrollTimer = setTimeout(function() {
+                    body.classList.remove('scrolling');
+                }, 250);
+
+                handleScroll(); // Call the function to handle scroll
+            });
+
+            // Initial check for page load
+            handleScroll();
+        });
+        document.querySelector('.menu-icon').addEventListener('click', function() {
+    const nav = document.querySelector('.ham-navbar');
+    const menu = document.querySelector('.menu');
+    
+    menu.classList.toggle('show');
+    nav.style.backgroundColor = menu.classList.contains('show') ? 'white' : 'transparent';
+});
+
+</script>

@@ -10,6 +10,7 @@ Template Name: Bluetooth
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اپ بلوتوث</title>
 </head>
 
 <div id="content">
@@ -28,6 +29,22 @@ Template Name: Bluetooth
                     href="<?php echo esc_url(get_permalink(get_page_by_path('register'))); ?>">ثبت نام</button>
             </div>
         </nav>
+    <div>
+        <nav class="ham-navbar" style="top: 0;">
+        <label class="menu-icon" for="menu-btn" style="top: 29px;">&#9776;</label>
+        <ul class="menu">
+            <li class="menu-item"><a href="<?php echo esc_url(home_url('/')); ?>">خانه</a></li>
+            <li class="menu-item"><a href="#services">سرویس‌ها</a></li>
+            <li class="menu-item"><a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>">درباره ما</a></li>
+            <li class="menu-item"><a class="white-nav" href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>">تماس با ما</a></li>
+            <li class="menu-item"><a class="white-nav" href="#blog">بلاگ</a></li>
+        </ul>
+    </nav>
+    <div class="small-auth about-auth" style="direction: rtl;">
+          <div class="auth"><a class="white-nav" href="<?php echo esc_url(get_permalink(get_page_by_path('login'))); ?>">ورود</a></div>
+          <div class="auth"><button class="register-btn" style="color:white;" href="<?php echo esc_url(get_permalink(get_page_by_path('register'))); ?>">ثبت نام</button></div>
+    </div>
+    </div>
     </div>
     <div class="audio-app-intro">
         <div class="audio-intro-bg">
@@ -96,7 +113,7 @@ Template Name: Bluetooth
                         transform="translate(990 184.036)" fill="#fff" opacity="0.22" />
                     <circle id="Ellipse_117" data-name="Ellipse 117" cx="405.982" cy="405.982" r="405.982"
                         transform="translate(990 66.036)" fill="#fff" opacity="0.22" />
-                    <g id="Group_594" data-name="Group 594" transform="translate(1334.824 -242.79)">
+                    <g id="Group_594" data-name="Group 594" transform= "translate(1334.824 -242.79)">
                         <path id="Path_2291" data-name="Path 2291"
                             d="M338.042,351.767h-5.995v1.9a3.6,3.6,0,0,1-.931,2.394,3.66,3.66,0,0,1-2.92.994l-8.519.01v6.011c1.908-.012,6.751-.024,8.659-.037a10.265,10.265,0,0,0,2.769-.349,9.437,9.437,0,0,0,5.276-3.43,8.622,8.622,0,0,0,1.656-4.453c.056-.854,0-1.73,0-2.586Z"
                             transform="translate(-85.793 -2.775)" fill="url(#linear-gradient-2)" />
@@ -1420,3 +1437,55 @@ Template Name: Bluetooth
     </div>
     <?php endwhile; endif; ?>
 </div>
+
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var body = document.body;
+            var leftHeader = document.querySelector('.left-header');
+            const hamMenue = document.querySelector('.ham-navbar');
+
+            function handleScroll() {
+                if (window.scrollY <= 100) { // Check if at the top of the page
+                    leftHeader.style.display = 'block'; // Show the header
+                    hamMenue.style.display = 'inline-block';
+                } else {
+                    leftHeader.style.display = 'none'; // Hide the header
+                    hamMenue.style.display = 'none';
+                }
+            }
+
+            window.addEventListener("scroll", function() {
+                body.classList.add('scrolling');
+                clearTimeout(window.scrollTimer);
+                window.scrollTimer = setTimeout(function() {
+                    body.classList.remove('scrolling');
+                }, 250);
+
+                handleScroll(); // Call the function to handle scroll
+            });
+
+            // Initial check for page load
+            handleScroll();
+        });
+        document.querySelector('.menu-icon').addEventListener('click', function() {
+    const nav = document.querySelector('.ham-navbar');
+    const menu = document.querySelector('.menu');
+    
+    menu.classList.toggle('show');
+    nav.style.backgroundColor = menu.classList.contains('show') ? 'white' : 'transparent';
+});
+    function updateTransform() {
+            var group = document.getElementById("Group_594");
+            if (window.innerWidth <= 768) {
+                group.setAttribute("transform", "translate(720, -600) scale(2)");
+            } else {
+                group.setAttribute("transform", "translate(1334.824, -242.79)");
+            }
+        }
+
+        // Initial call to set the transform on page load
+        updateTransform();
+
+        // Update the transform when the window is resized
+        window.addEventListener("resize", updateTransform);
+</script>

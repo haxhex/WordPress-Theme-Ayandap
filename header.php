@@ -228,6 +228,8 @@
     
     menu.classList.toggle('show');
     nav.style.backgroundColor = menu.classList.contains('show') ? 'white' : 'transparent';
-});     </script>
+});     
+
+</script>
 
     </header>
