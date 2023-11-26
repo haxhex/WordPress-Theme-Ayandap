@@ -8,6 +8,8 @@ Template Name: Contact
 <head>
     <link href="https://fonts.cdnfonts.com/css/iranian-sans" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" type="image/x-icon">
     <title>تماس با ما</title>
 </head>
 <div id="content">

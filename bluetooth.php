@@ -10,6 +10,8 @@ Template Name: Bluetooth
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" type="image/x-icon">
     <title>اپ بلوتوث</title>
 </head>
 

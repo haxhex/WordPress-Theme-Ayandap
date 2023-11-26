@@ -10,6 +10,8 @@ Template Name: Audio
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" type="image/x-icon">
     <title>اپ صوتی</title>
 </head>
 
@@ -433,15 +435,12 @@ Template Name: Audio
         document.addEventListener("DOMContentLoaded", function() {
             var body = document.body;
             var leftHeader = document.querySelector('.left-header');
-            const hamMenue = document.querySelector('.ham-navbar');
 
             function handleScroll() {
                 if (window.scrollY <= 100) { // Check if at the top of the page
                     leftHeader.style.display = 'block'; // Show the header
-                    hamMenue.style.display = 'inline-block';
                 } else {
                     leftHeader.style.display = 'none'; // Hide the header
-                    hamMenue.style.display = 'none';
                 }
             }
 
@@ -465,12 +464,17 @@ Template Name: Audio
     menu.classList.toggle('show');
     nav.style.backgroundColor = menu.classList.contains('show') ? 'white' : 'transparent';
 });
+
+const hamMenue = document.querySelector('.ham-navbar');
+
     function updateTransform() {
             var group = document.getElementById("Group_594");
             if (window.innerWidth <= 768) {
                 group.setAttribute("transform", "translate(720, -600) scale(2)");
+                hamMenue.style.display = 'inline-block';
             } else {
                 group.setAttribute("transform", "translate(1334.824, -242.79)");
+                hamMenue.style.display = 'none';
             }
         }
 

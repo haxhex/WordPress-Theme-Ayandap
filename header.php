@@ -8,6 +8,9 @@
     <?php wp_head(); ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" type="image/x-icon">
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -202,7 +205,7 @@
             function handleScroll() {
                 if (window.scrollY <= 100) { // Check if at the top of the page
                     leftHeader.style.display = 'block'; // Show the header
-                    hamMenue.style.display = 'inline-block';
+                    // hamMenue.style.display = 'inline-block';
                 } else {
                     leftHeader.style.display = 'none'; // Hide the header
                     hamMenue.style.display = 'none';
