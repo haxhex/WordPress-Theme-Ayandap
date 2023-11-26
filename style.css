@@ -53,7 +53,7 @@ Version: 1.0
 }
 
 .navbar {
-    display: grid;
+    display: none;
     vertical-align: middle;
     position: relative; /* Ensure the position is relative */
     z-index: 2; /* Set a higher z-index to bring it to the front */
@@ -71,7 +71,15 @@ Version: 1.0
 .navbar a {
     text-decoration: none; /* Remove underlines from links */
     padding: 10px; /* Add padding for better spacing */
-    margin-right: 10px; /* Add margin to create space between items */    
+    margin-right: 10px; /* Add margin to create space between items */  
+}
+
+@media screen and (max-width: 768px) {
+    .navbar a {
+        color: black;  
+
+    }
+
 }
 
 .my-header {
@@ -1221,4 +1229,106 @@ text-align: right;
  .bluetooth-features {
     margin-top: 20px;
  }
+}
+
+
+@media (max-width: 768px) {
+    .menu-items {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .hamburger-icon {
+        width: 30px;
+        height: 3px;
+        background-color: #000;
+        margin: 5px;
+    }
+
+    .change .hamburger-icon {
+        background-color: #fff;
+    }
+}
+
+/* Hamburger menu styles */
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    /* top: 20px; */
+    left: 20px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    /* Add your styling for the navigation menu here */
+}
+
+.menu-item {
+    margin-right: 15px;
+    padding: 10px 0;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.ham-navbar {
+    display: none;
+}
+
+/* Add media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu.show {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+    .svg-icon {
+        width: 100%;
+    }
+
+    .ham-navbar {
+        position: fixed;
+        z-index: 2;
+        background: transparent;
+        top: 50px;
+        left: 20px;
+        padding: 5px 10%;
+        border-radius: 3px;
+        display: inline-block;
+    }
+}
+
+.small-auth {
+    margin-top: 20px;
+}
+
+.small-auth a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+@media screen and (min-width: 768px) {
+.small-auth {
+    display: none;
+}
 }
