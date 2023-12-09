@@ -10,6 +10,7 @@ Template Name: About
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" type="image/x-icon">
 <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" type="image/x-icon">
+<meta content="width=device-width, initial-scale=1" name="viewport">
     <title>درباره ما</title>
 </head>
 <div id="content">
@@ -151,8 +152,8 @@ Template Name: About
         <nav class="contact-navbar about-nav">
             <a href="<?php echo esc_url(home_url('/')); ?>">خانه</a>
             <a href="<?php echo esc_url(get_permalink(get_page_by_path('services'))); ?>">سرویس‌ها</a>
-            <a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>">درباره ما</a>
-            <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>">تماس
+            <a href="<?php echo esc_url(get_permalink(get_page_by_path('about-us'))); ?>">درباره ما</a>
+            <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-us'))); ?>">تماس
                 با ما</a>
             <a href="<?php echo esc_url(get_permalink(get_page_by_path('blog'))); ?>">بلاگ</a>
             <div class="auth" style="margin-right: 372px;">
@@ -168,8 +169,8 @@ Template Name: About
         <ul class="menu">
             <li class="menu-item"><a href="<?php echo esc_url(home_url('/')); ?>">خانه</a></li>
             <li class="menu-item"><a href="#services">سرویس‌ها</a></li>
-            <li class="menu-item"><a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>">درباره ما</a></li>
-            <li class="menu-item"><a class="white-nav" href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>">تماس با ما</a></li>
+            <li class="menu-item"><a href="<?php echo esc_url(get_permalink(get_page_by_path('about-us'))); ?>">درباره ما</a></li>
+            <li class="menu-item"><a class="white-nav" href="<?php echo esc_url(get_permalink(get_page_by_path('contact-us'))); ?>">تماس با ما</a></li>
             <li class="menu-item"><a class="white-nav" href="#blog">بلاگ</a></li>
         </ul>
     </nav>

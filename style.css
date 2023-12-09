@@ -1037,7 +1037,8 @@ text-align: right;
 
 .audio-features-content {
     display: inline-block;
-    width: 30%;
+    max-width: 100%;
+    height: auto;
     direction: rtl;
     float: right;
     margin-right: 12%;

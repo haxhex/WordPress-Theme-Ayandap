@@ -21,8 +21,8 @@ Template Name: Bluetooth
         <nav class="audio-nav">
             <a href="<?php echo esc_url(home_url('/')); ?>">خانه</a>
             <a href="<?php echo esc_url(get_permalink(get_page_by_path('services'))); ?>">سرویس‌ها</a>
-            <a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>">درباره ما</a>
-            <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>">تماس
+            <a href="<?php echo esc_url(get_permalink(get_page_by_path('about-us'))); ?>">درباره ما</a>
+            <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-us'))); ?>">تماس
                 با ما</a>
             <a href="<?php echo esc_url(get_permalink(get_page_by_path('blog'))); ?>">بلاگ</a>
             <div class="auth game-auth">
@@ -37,8 +37,8 @@ Template Name: Bluetooth
         <ul class="menu">
             <li class="menu-item"><a href="<?php echo esc_url(home_url('/')); ?>">خانه</a></li>
             <li class="menu-item"><a href="#services">سرویس‌ها</a></li>
-            <li class="menu-item"><a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>">درباره ما</a></li>
-            <li class="menu-item"><a class="white-nav" href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>">تماس با ما</a></li>
+            <li class="menu-item"><a href="<?php echo esc_url(get_permalink(get_page_by_path('about-us'))); ?>">درباره ما</a></li>
+            <li class="menu-item"><a class="white-nav" href="<?php echo esc_url(get_permalink(get_page_by_path('contact-us'))); ?>">تماس با ما</a></li>
             <li class="menu-item"><a class="white-nav" href="#blog">بلاگ</a></li>
         </ul>
     </nav>
@@ -540,21 +540,24 @@ Template Name: Bluetooth
 
         </div>
         <div class="audio-app-content bluetooth-content">
-            <h2 style="font-weight: normal;">خدمات مبتنی بر بلوتوث</h2>
-            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
-                متون بلکه روزنامه و مجله در ستون لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
-                از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون لورم ایپسوم متن ساختگی با تولید سادگی
-                نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون </p>
+            <h2 style="font-weight: normal; margin-left: 30%; margin-right: 30%;">خدمات مبتنی بر بلوتوث</h2>
+            <p>بلوتوث یک فناوری بی‌سیم کوتاه‌برد است که برای اتصال دستگاه‌های مختلف به یکدیگر استفاده می‌شود. خدمات مبتنی بر بلوتوث، سرویس‌هایی هستند که از این فناوری برای ارائه‌ی خدمات مختلف استفاده می‌کنند.</p>
             <button class="download-audio-btn">لینک دانلود اپلیکیشن</button>
         </div>
     </div>
     <div class="audio-features">
         <div class="audio-features-content">
-            <h2 style="font-weight: normal; margin-top: 110px;">ویژگی های سرویس بلوتوث</h2>
-            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
-                متون بلکه روزنامه و مجله در ستون لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
-                از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون لورم ایپسوم متن ساختگی با تولید سادگی
-                نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون </p>
+            <h2 style="font-weight: normal; margin-top: 110px; margin-left: 30%; margin-right: 30%;">ویژگی های سرویس بلوتوث</h2>
+            <p>برخی از نمونه‌های خدمات مبتنی بر بلوتوث عبارتند از:
+
+مدیریت دستگاه‌ها : 
+بلوتوث می‌تواند برای مدیریت دستگاه‌های مختلف مانند چاپگرها، بلندگوها، و لوازم جانبی استفاده شود.
+
+انتقال داده‌ها : 
+بلوتوث می‌تواند برای انتقال داده‌های مختلف مانند فایل‌های رسانه‌ای، اسناد، و اطلاعات تماس استفاده شود.
+
+ارتباطات : 
+بلوتوث می‌تواند برای برقراری ارتباط بین دستگاه‌های مختلف مانند گوشی‌های هوشمند، رایانه‌ها، و کنسول‌های بازی استفاده شود.</p>
         </div>
         <div class="audio-features-content bluetooth-features">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="550"
@@ -1433,8 +1436,13 @@ Template Name: Bluetooth
   </g>
         </svg>
         </div>
-        <div class="audio-features-content bluetooth-snd-cont">
-            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون  </p>
+        <div class="audio-features-content bluetooth-snd-cont" style="margin-right: 30%; margin-left: 30%;">
+            <p>سرویس بلوتوث دارای ویژگی‌های مختلفی است که آن را به یک فناوری محبوب برای ارائه‌ی خدمات مختلف تبدیل می‌کند. برخی از این ویژگی‌ها عبارتند از:
+* قابلیت همکاری
+* امنیت
+* صرفه‌جویی در منابع
+
+با استفاده از این فناوری، می‌توانید دستگاه‌های مختلف خود را به راحتی با یکدیگر ارتباط برقرار کنید، داده‌های خود را به اشتراک بگذارید، و از خدمات مختلف بهره‌مند شوید.</p>
         </div>
     </div>
     <?php endwhile; endif; ?>

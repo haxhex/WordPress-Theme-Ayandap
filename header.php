@@ -165,11 +165,11 @@
         </div>
 
         <nav class="navbar">
-            <a href="<?php echo esc_url(home_url('/')); ?>">خانه</a>
+            <a class="black_nav" href="<?php echo esc_url(home_url('/')); ?>">خانه</a>
             <!-- <a href="<?php echo esc_url(get_permalink(get_page_by_path('services'))); ?>">سرویس‌ها</a> -->
-            <a href="#services">سرویس‌ها</a>
-            <a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>">درباره ما</a>
-            <a class="white-nav" href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>">تماس با
+            <a class="black_nav" href="#services">سرویس‌ها</a>
+            <a class="black_nav" href="<?php echo esc_url(get_permalink(get_page_by_path('about-us'))); ?>">درباره ما</a>
+            <a class="white-nav" href="<?php echo esc_url(get_permalink(get_page_by_path('contact-us'))); ?>">تماس با
                 ما</a>
             <a class="white-nav" href="#blog">بلاگ</a>
             <div class="auth">
@@ -185,8 +185,8 @@
         <ul class="menu">
             <li class="menu-item"><a href="<?php echo esc_url(home_url('/')); ?>">خانه</a></li>
             <li class="menu-item"><a href="#services">سرویس‌ها</a></li>
-            <li class="menu-item"><a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>">درباره ما</a></li>
-            <li class="menu-item"><a class="white-nav" href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>">تماس با ما</a></li>
+            <li class="menu-item"><a href="<?php echo esc_url(get_permalink(get_page_by_path('about-us'))); ?>">درباره ما</a></li>
+            <li class="menu-item"><a class="white-nav" href="<?php echo esc_url(get_permalink(get_page_by_path('contact-us'))); ?>">تماس با ما</a></li>
             <li class="menu-item"><a class="white-nav" href="#blog">بلاگ</a></li>
         </ul>
     </nav>
@@ -201,11 +201,16 @@
             var body = document.body;
             var leftHeader = document.querySelector('.left-header');
             const hamMenue = document.querySelector('.ham-navbar');
+            var windowWidth = window.innerWidth;
 
             function handleScroll() {
                 if (window.scrollY <= 100) { // Check if at the top of the page
                     leftHeader.style.display = 'block'; // Show the header
-                    // hamMenue.style.display = 'inline-block';
+                    if (windowWidth <= 768) {
+                    hamMenue.style.display = 'inline-block';
+                    } else {
+                    hamMenue.style.display = 'none';
+                    }
                 } else {
                     leftHeader.style.display = 'none'; // Hide the header
                     hamMenue.style.display = 'none';

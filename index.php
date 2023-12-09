@@ -18,7 +18,7 @@
                     و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
                     کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
                 </p>
-                <button class="contact-btn">تماس با ما</button>
+                <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-us'))); ?>"><button class="contact-btn">تماس با ما</button></a>
             </div>
             <div class="column">
                 <svg class="top-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="815.148"
@@ -1289,8 +1289,7 @@
                             transform="translate(0)" fill="#fff" />
                     </svg>
                     <p>خدمات ارتباطی</p>
-                    <p style="font-size: 14px">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
-                        طراحان گرافیک است. </p>
+                    <p style="font-size: 14px; margin-left: 5%; margin-right: 5%;">ما برای تسهیل ارتباط بین افراد و سازمان‌ها، طیف گسترده‌ای از خدمات ارتباطی را ارائه می‌دهیم.</p>
                     <button class="card-btn">بیشتر بدانیم</button>
                 </div>
                 <div class="services-card" style="background-color: #41EAE3;">
@@ -1304,8 +1303,7 @@
                             transform="translate(-121.807 -310.064)" fill="#fff" />
                     </svg>
                     <p>توسعه سخت افزاری</p>
-                    <p style="font-size: 14px">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
-                        طراحان گرافیک است. </p>
+                    <p style="font-size: 14px; margin-left: 5%; margin-right: 5%;">ما در زمینه‌ی توسعه‌ی سخت‌افزار از فناوری‌های پیشرفته برای طراحی و ساخت محصولات سخت‌افزاری با کیفیت بالا و کارآمد استفاده می‌کنیم.</p>
                     <button class="card-btn">بیشتر بدانیم</button>
                 </div>
                 <div class="services-card" style="background-color: #FBBA77;">
@@ -1404,8 +1402,7 @@
                     </svg>
 
                     <p>توسعه نرم افزاری</p>
-                    <p style="font-size: 14px">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
-                        طراحان گرافیک است. </p>
+                    <p style="font-size: 14px;  margin-left: 5%; margin-right: 5%;">ما به مشتریان خود کمک می‌کنیم تا با نرم‌افزارهای باکیفیت بالا نیازهای خود را برآورده کنند و از فناوری‌های جدید بهره‌مند شوند.</p>
                     <button class="card-btn">بیشتر بدانیم</button>
                 </div>
                 <div class="services-container">
@@ -1459,8 +1456,7 @@
                         </svg>
 
                         <p>بازی و سرگرمی</p>
-                        <p style="font-size: 14px">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-                            استفاده از طراحان گرافیک است. </p>
+                        <p style="font-size: 14px; margin-left: 5%; margin-right: 5%;">با دنبال کردن ما، با جدیدترین و سرگرم کننده‌ترین بازی ها آشنا شوید.</p>
                             <a href="<?php echo esc_url(get_permalink(get_page_by_path('game'))); ?>"><button class="card-btn">بیشتر بدانیم</button></a>
                     </div>
                     <div class="services-card" style="background-color: #A5A2F6;">
@@ -1479,8 +1475,7 @@
                             </g>
                         </svg>
                         <p>خدمات بر پایه bluetooth</p>
-                        <p style="font-size: 14px">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-                            استفاده از طراحان گرافیک است. </p>
+                        <p style="font-size: 14px;margin-left: 5%; margin-right: 5%;">باکیفیت ترین خدمات بر‌پایه‌ی بلوتوث را از ما بخواهید.</p>
                             <a href="<?php echo esc_url(get_permalink(get_page_by_path('bluetooth'))); ?>"><button class="card-btn">بیشتر بدانیم</button></a>
                     </div>
                     <div class="services-card" style="background-color: #4386D2;">
@@ -1507,8 +1502,7 @@
                         </svg>
 
                         <p>سایر اپلیکیشن </p>
-                        <p style="font-size: 14px">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-                            استفاده از طراحان گرافیک است. </p>
+                        <p style="font-size: 14px; margin-left: 5%; margin-right: 5%;">با دیگر محصولات ما آشنا شوید.</p>
                         <button class="card-btn">بیشتر بدانیم</button>
                     </div>
                 </div>
@@ -2106,7 +2100,7 @@
                     لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می
                     باشد. </p>
             </div>
-            <img src="<?php echo get_template_directory_uri(); ?>/images/ceo.svg" alt="fst-blog">
+            <center><img src="<?php echo get_template_directory_uri(); ?>/images/ceo.svg" alt="fst-blog"></center>
 
             <div class="ceo-content">
                 <p style="font-size: 12px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
@@ -2142,10 +2136,8 @@
             <div class="blog-item card-3">
             <img src="<?php echo get_template_directory_uri(); ?>/images/fst-blog.svg" alt="fst-blog">
 
-                <p style="margin-top: -85px; margin-right: 10%;">وبلاگ آیند اپ را دنبال کنید</p>
-                <p class="blog-desc">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
-                    طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط
-                    فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                <p style="margin-top: -85px; margin_left: 5%; margin_right: 5% font-size: 14px;">سیستم موقعیت‌یابی داخلی (IPS)</p>
+                <p class="blog-desc">سیستم موقعیت‌یابی داخلی یا Indoor Positioning System (IPS) یک فناوری جهت تعیین موقعیت افراد، اشیاء یا دستگاه‌های الکترونیکی در مکان‌های سرپوشیده مانند ساختمان‌ها، تونل‌ها، زیرزمین‌ها و غیره است. این فناوری جایگزین مناسبی برای سیستم موقعیت‌یابی جهانی (GPS) است که در فضای باز کار می‌کند و نه در محیط‌های داخلی.</p>
                 <div class="flesh">
                     <svg class="flesh-svg" xmlns="http://www.w3.org/2000/svg" width="39.414" height="28.828" viewBox="0 0 39.414 28.828">
                         <g id="Group_328" data-name="Group 328" transform="translate(1.414 1.414)">
@@ -2162,10 +2154,8 @@
             <div class="blog-item extra-blog-item card-3">
             <img src="<?php echo get_template_directory_uri(); ?>/images/snd-blog.svg" alt="snd-blog">
 
-                <p style="margin-top: -85px; margin-right: 10%;">وبلاگ آیند اپ را دنبال کنید</p>
-                <p class="blog-desc" style="font-size: 12px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
-                    طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط
-                    فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                <p style="margin-top: -85px; margin-right: 5%; margin-left: 5%; font-size: 14px;">توسعه ایده‌های خود در هر پلتفرمی</p>
+                <p class="blog-desc" style="font-size: 12px; margin: 1%;">ایده‌ها و خلاقیت‌های شما محدود به هیچ پلتفرمی نیستند. با استفاده از ابزارها و روش‌های مناسب، شناسایی بازار هدف و تحلیلی دقیق بازخوردها می‌توانید ایده‌های خود را در هر پلتفرم مورد نظر توسعه دهید و به مخاطبان خود برسانید.</p>
                 <div class="flesh">
                     <svg xmlns="http://www.w3.org/2000/svg" width="39.414" height="28.828" viewBox="0 0 39.414 28.828">
                         <g id="Group_328" data-name="Group 328" transform="translate(1.414 1.414)">
@@ -2181,10 +2171,9 @@
             </div>
             <div class="blog-item extra-blog-item card-3">
             <img src="<?php echo get_template_directory_uri(); ?>/images/third-blog.svg" alt="third-blog">
-                <p style="margin-top: -85px; margin-right: 10%;">وبلاگ آیند اپ را دنبال کنید</p>
-                <p class="blog-desc" style="font-size: 12px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
-                    طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط
-                    فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                <p style="margin-top: -85px; margin_left: 1%; margin_right: 1%; font-size: 14px;">چت‌بات ها (Chatbots)</p>
+                <p class="blog-desc" style="font-size: 12px; margin_left: 1%; margin_right: 1%">ربات‌های گفتگو یا چت بات‌ها، برنامه‌های نرم‌افزاری هستند که با استفاده از هوش مصنوعی می‌توانند با کاربران به صورت طبیعی و خودکار صحبت کنند. این ربات‌ها می‌توانند برای انجام طیف گسترده‌ای از کارها از جمله سرگرمی و تعامل، انجام کارهای روزمره، پاسخگویی به انواع سوالات، آموزش و یادگیری و حتی کارهای تخصصی در بسیاری مشاغل
+ استفاده شوند.</p>
                 <div class="flesh">
                     <svg xmlns="http://www.w3.org/2000/svg" width="39.414" height="28.828" viewBox="0 0 39.414 28.828">
                         <g id="Group_328" data-name="Group 328" transform="translate(1.414 1.414)">
@@ -2245,7 +2234,7 @@
     </div>
     <div class="extra-foot">
     <div class="footer">
-        <div class="media">
+        <div class="media media-itm1">
             <p style="font-size: 26px; font-weight: bold; color: #3D37F1;">آیند اپ</p>
             <p style="font-size: 14px;">اینجا متن میاداینجا متن میاد اینجا متن میاد اینجا متن میاد اینجا متن میاد اینجا متن میاد</p>
             <div class="media-icons">

@@ -21,8 +21,8 @@ Template Name: Game
         <nav class="audio-nav">
             <a href="<?php echo esc_url(home_url('/')); ?>">خانه</a>
             <a href="<?php echo esc_url(get_permalink(get_page_by_path('services'))); ?>">سرویس‌ها</a>
-            <a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>">درباره ما</a>
-            <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>">تماس
+            <a href="<?php echo esc_url(get_permalink(get_page_by_path('about-us'))); ?>">درباره ما</a>
+            <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-us'))); ?>">تماس
                 با ما</a>
             <a href="<?php echo esc_url(get_permalink(get_page_by_path('blog'))); ?>">بلاگ</a>
             <div class="auth game-auth">
@@ -38,8 +38,8 @@ Template Name: Game
         <ul class="menu">
             <li class="menu-item"><a href="<?php echo esc_url(home_url('/')); ?>">خانه</a></li>
             <li class="menu-item"><a href="#services">سرویس‌ها</a></li>
-            <li class="menu-item"><a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>">درباره ما</a></li>
-            <li class="menu-item"><a class="white-nav" href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>">تماس با ما</a></li>
+            <li class="menu-item"><a href="<?php echo esc_url(get_permalink(get_page_by_path('about-us'))); ?>">درباره ما</a></li>
+            <li class="menu-item"><a class="white-nav" href="<?php echo esc_url(get_permalink(get_page_by_path('contact-us'))); ?>">تماس با ما</a></li>
             <li class="menu-item"><a class="white-nav" href="#blog">بلاگ</a></li>
         </ul>
     </nav>
