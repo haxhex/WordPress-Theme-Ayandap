@@ -48,7 +48,7 @@ Version: 1.0
         display: inline-block;
         vertical-align: middle;
         margin-left: 3%;
-        margin-right: 5%;
+        /* margin-right: 5%; */
     }
 }
 
@@ -1037,8 +1037,7 @@ text-align: right;
 
 .audio-features-content {
     display: inline-block;
-    max-width: 100%;
-    height: auto;
+    width: 30%;
     direction: rtl;
     float: right;
     margin-right: 12%;
@@ -1071,7 +1070,7 @@ text-align: right;
 
   @media only screen and (min-width: 768px) {
     .audio-footer-image svg {
-        margin-left: 16%;
+        /* margin-left: 16%; */
     }
   }
 

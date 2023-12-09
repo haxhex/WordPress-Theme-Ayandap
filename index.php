@@ -1273,7 +1273,7 @@
             </div>
             <div class="services-container">
                 <div class="services-card">
-                    <svg style="margin-top: 75px;" id="_005-repair" data-name="005-repair"
+                    <svg style="margin-top: 95px;" id="_005-repair" data-name="005-repair"
                         xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
                         <path id="Path_1609" data-name="Path 1609"
                             d="M46.653,31.3a5.251,5.251,0,1,0,5.25,5.25A5.257,5.257,0,0,0,46.653,31.3Zm0,7.15a1.9,1.9,0,1,1,1.9-1.9A1.9,1.9,0,0,1,46.653,38.454Zm0,0"
@@ -1479,7 +1479,7 @@
                             <a href="<?php echo esc_url(get_permalink(get_page_by_path('bluetooth'))); ?>"><button class="card-btn">بیشتر بدانیم</button></a>
                     </div>
                     <div class="services-card" style="background-color: #4386D2;">
-                        <svg style="margin-top: 65px;" id="_004-app" data-name="004-app"
+                        <svg style="margin-top: 85px;" id="_004-app" data-name="004-app"
                             xmlns="http://www.w3.org/2000/svg" width="100" height="105.978" viewBox="0 0 100 105.978">
                             <path id="Path_1603" data-name="Path 1603"
                                 d="M65.392,272.782H16.663A13.349,13.349,0,0,1,3.318,259.459V210.741a1.659,1.659,0,0,0-3.319,0v48.717A16.671,16.671,0,0,0,16.663,276.1H65.392a1.659,1.659,0,1,0,0-3.319Zm0,0"
@@ -2136,8 +2136,8 @@
             <div class="blog-item card-3">
             <img src="<?php echo get_template_directory_uri(); ?>/images/fst-blog.svg" alt="fst-blog">
 
-                <p style="margin-top: -85px; margin_left: 5%; margin_right: 5% font-size: 14px;">سیستم موقعیت‌یابی داخلی (IPS)</p>
-                <p class="blog-desc">سیستم موقعیت‌یابی داخلی یا Indoor Positioning System (IPS) یک فناوری جهت تعیین موقعیت افراد، اشیاء یا دستگاه‌های الکترونیکی در مکان‌های سرپوشیده مانند ساختمان‌ها، تونل‌ها، زیرزمین‌ها و غیره است. این فناوری جایگزین مناسبی برای سیستم موقعیت‌یابی جهانی (GPS) است که در فضای باز کار می‌کند و نه در محیط‌های داخلی.</p>
+                <p class="blog-desc" style="margin-top: -85px; font-size: 14px;">سیستم موقعیت‌یابی داخلی (IPS)</p>
+                <p class="blog-desc">سیستم موقعیت‌یابی داخلی یا Indoor Positioning System (IPS) یک فناوری جهت تعیین موقعیت افراد، اشیاء یا دستگاه‌های الکترونیکی در مکان‌های سرپوشیده مانند ساختمان‌ها، تونل‌ها، زیرزمین‌ها و غیره است. این فناوری جایگزین مناسبی برای سیستم موقعیت‌یابی جهانی (GPS) است که در فضای باز کار می‌کند و نه در محیط‌های داخلی.</p><br>
                 <div class="flesh">
                     <svg class="flesh-svg" xmlns="http://www.w3.org/2000/svg" width="39.414" height="28.828" viewBox="0 0 39.414 28.828">
                         <g id="Group_328" data-name="Group 328" transform="translate(1.414 1.414)">
@@ -2154,8 +2154,9 @@
             <div class="blog-item extra-blog-item card-3">
             <img src="<?php echo get_template_directory_uri(); ?>/images/snd-blog.svg" alt="snd-blog">
 
-                <p style="margin-top: -85px; margin-right: 5%; margin-left: 5%; font-size: 14px;">توسعه ایده‌های خود در هر پلتفرمی</p>
+                <p style="margin-top: -85px; font-size: 14px;" class="blog-desc"> توسعه ایده‌های خود در هر پلتفرمی</p>
                 <p class="blog-desc" style="font-size: 12px; margin: 1%;">ایده‌ها و خلاقیت‌های شما محدود به هیچ پلتفرمی نیستند. با استفاده از ابزارها و روش‌های مناسب، شناسایی بازار هدف و تحلیلی دقیق بازخوردها می‌توانید ایده‌های خود را در هر پلتفرم مورد نظر توسعه دهید و به مخاطبان خود برسانید.</p>
+                <br><br><br><br><br>
                 <div class="flesh">
                     <svg xmlns="http://www.w3.org/2000/svg" width="39.414" height="28.828" viewBox="0 0 39.414 28.828">
                         <g id="Group_328" data-name="Group 328" transform="translate(1.414 1.414)">
@@ -2171,7 +2172,7 @@
             </div>
             <div class="blog-item extra-blog-item card-3">
             <img src="<?php echo get_template_directory_uri(); ?>/images/third-blog.svg" alt="third-blog">
-                <p style="margin-top: -85px; margin_left: 1%; margin_right: 1%; font-size: 14px;">چت‌بات ها (Chatbots)</p>
+                <p style="margin-top: -85px; margin_left: 1%; margin_right: 1%; font-size: 14px;" class="blog-desc">چت‌بات ها (Chatbots)</p>
                 <p class="blog-desc" style="font-size: 12px; margin_left: 1%; margin_right: 1%">ربات‌های گفتگو یا چت بات‌ها، برنامه‌های نرم‌افزاری هستند که با استفاده از هوش مصنوعی می‌توانند با کاربران به صورت طبیعی و خودکار صحبت کنند. این ربات‌ها می‌توانند برای انجام طیف گسترده‌ای از کارها از جمله سرگرمی و تعامل، انجام کارهای روزمره، پاسخگویی به انواع سوالات، آموزش و یادگیری و حتی کارهای تخصصی در بسیاری مشاغل
  استفاده شوند.</p>
                 <div class="flesh">

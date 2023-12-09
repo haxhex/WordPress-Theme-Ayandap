@@ -540,14 +540,14 @@ Template Name: Bluetooth
 
         </div>
         <div class="audio-app-content bluetooth-content">
-            <h2 style="font-weight: normal; margin-left: 30%; margin-right: 30%;">خدمات مبتنی بر بلوتوث</h2>
+            <h2 style="font-weight: normal;">خدمات مبتنی بر بلوتوث</h2>
             <p>بلوتوث یک فناوری بی‌سیم کوتاه‌برد است که برای اتصال دستگاه‌های مختلف به یکدیگر استفاده می‌شود. خدمات مبتنی بر بلوتوث، سرویس‌هایی هستند که از این فناوری برای ارائه‌ی خدمات مختلف استفاده می‌کنند.</p>
             <button class="download-audio-btn">لینک دانلود اپلیکیشن</button>
         </div>
     </div>
     <div class="audio-features">
         <div class="audio-features-content">
-            <h2 style="font-weight: normal; margin-top: 110px; margin-left: 30%; margin-right: 30%;">ویژگی های سرویس بلوتوث</h2>
+            <h2 style="font-weight: normal; margin-top: 110px;">ویژگی های سرویس بلوتوث</h2>
             <p>برخی از نمونه‌های خدمات مبتنی بر بلوتوث عبارتند از:
 
 مدیریت دستگاه‌ها : 
@@ -1436,11 +1436,9 @@ Template Name: Bluetooth
   </g>
         </svg>
         </div>
-        <div class="audio-features-content bluetooth-snd-cont" style="margin-right: 30%; margin-left: 30%;">
+        <div class="audio-features-content bluetooth-snd-cont">
             <p>سرویس بلوتوث دارای ویژگی‌های مختلفی است که آن را به یک فناوری محبوب برای ارائه‌ی خدمات مختلف تبدیل می‌کند. برخی از این ویژگی‌ها عبارتند از:
-* قابلیت همکاری
-* امنیت
-* صرفه‌جویی در منابع
+قابلیت همکاری، امنیت و صرفه‌جویی در منابع
 
 با استفاده از این فناوری، می‌توانید دستگاه‌های مختلف خود را به راحتی با یکدیگر ارتباط برقرار کنید، داده‌های خود را به اشتراک بگذارید، و از خدمات مختلف بهره‌مند شوید.</p>
         </div>
