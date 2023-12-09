@@ -18,7 +18,7 @@
                     و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
                     کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
                 </p>
-                <button class="contact-btn">تماس با ما</button>
+                <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-us'))); ?>"><button class="contact-btn">تماس با ما</button></a>
             </div>
             <div class="column">
                 <svg class="top-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="815.148"
@@ -2106,7 +2106,7 @@
                     لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می
                     باشد. </p>
             </div>
-            <img src="<?php echo get_template_directory_uri(); ?>/images/ceo.svg" alt="fst-blog">
+            <center><img src="<?php echo get_template_directory_uri(); ?>/images/ceo.svg" alt="fst-blog"></center>
 
             <div class="ceo-content">
                 <p style="font-size: 12px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
@@ -2245,7 +2245,7 @@
     </div>
     <div class="extra-foot">
     <div class="footer">
-        <div class="media">
+        <div class="media media-itm1">
             <p style="font-size: 26px; font-weight: bold; color: #3D37F1;">آیند اپ</p>
             <p style="font-size: 14px;">اینجا متن میاداینجا متن میاد اینجا متن میاد اینجا متن میاد اینجا متن میاد اینجا متن میاد</p>
             <div class="media-icons">
