@@ -1,0 +1,80 @@
+Return-Path: <>
+Delivered-To: ayandap1@ayandap.com
+Received: from lh242.irandns.com
+	by lh242.irandns.com with LMTP
+	id pGNrJKz6zWKVDR8AzKNLfw
+	(envelope-from <>)
+	for <ayandap1@ayandap.com>; Wed, 13 Jul 2022 03:20:20 +0430
+Return-path: <>
+Envelope-to: ayandap1@ayandap.com
+Delivery-date: Wed, 13 Jul 2022 03:20:20 +0430
+Received: from mail by lh242.irandns.com with local (Exim 4.96)
+	id 1oBOhw-008YGO-1k
+	for ayandap1@ayandap.com;
+	Wed, 13 Jul 2022 03:20:20 +0430
+X-Failed-Recipients: sss@sss.sss
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@lh242.irandns.com>
+To: ayandap1@ayandap.com
+References: <WwpgIjDRzc2KSvZU1yJ19jPkzmEgk2BuEBsRtvIE@ayandap.com>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1657666220-eximdsn-324591941
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oBOhw-008YGO-1k@lh242.irandns.com>
+Date: Wed, 13 Jul 2022 03:20:20 +0430
+
+--1657666220-eximdsn-324591941
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  sss@sss.sss
+    Unrouteable address
+
+--1657666220-eximdsn-324591941
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; lh242.irandns.com
+
+Action: failed
+Final-Recipient: rfc822;sss@sss.sss
+Status: 5.0.0
+
+--1657666220-eximdsn-324591941
+Content-type: message/rfc822
+
+Return-path: <ayandap1@ayandap.com>
+Received: from ayandap1 by lh242.irandns.com with local (Exim 4.96)
+	(envelope-from <ayandap1@ayandap.com>)
+	id 1oBOhv-008YGJ-31
+	for sss@sss.sss;
+	Wed, 13 Jul 2022 03:20:20 +0430
+To: sss@sss.sss
+Subject: =?UTF-8?B?W9ii24zZhtivINin2b5dINiz2KfbjNiqINi02YXYpyDYqNmHINmI2LHYr9m+?=  =?UTF-8?B?2LHYsyA2LjAuMSDYqNmH4oCM2LHZiNiy2LHYs9in2YbbjCDYtNiv?=
+X-PHP-Originating-Script: 1037:PHPMailer.php
+Date: Tue, 12 Jul 2022 22:50:19 +0000
+From: WordPress <wordpress@ayandap.com>
+Message-ID: <WwpgIjDRzc2KSvZU1yJ19jPkzmEgk2BuEBsRtvIE@ayandap.com>
+X-Mailer: PHPMailer 6.6.0 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+درود! سایت شما در https://ayandap.com به طور خودکار به وردپرس 6.0.1 به‌روزرسانی شد.
+
+در این بخش نیاز به هیچ کاری ندارید. برای یافتن اطلاعات بیشتر دربارهٔ نگارش 6.0.1، صفحه درباره وردپرس را مشاهده کنید:
+https://ayandap.com/wp-admin/about.php
+
+اگر مشکلی دارید یا نیاز به پشتیبانی احساس می‌کنید، داوطلبان در انجمن پشتیبانی fa.wordpress.org/support می‌توانند به شما کمک کنند.
+https://fa.wordpress.org/support/forums/
+
+همچنین شما به‌روزرسانی برخی از افزونه‌ها یا پوسته‌ها را در دسترس دارید. هم اکنون آنها را به‌روزرسانی نمایید:
+https://ayandap.com/wp-admin/
+
+گروه وردپرس
+
+
+--1657666220-eximdsn-324591941--

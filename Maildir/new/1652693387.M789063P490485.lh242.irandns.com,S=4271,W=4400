@@ -1,0 +1,129 @@
+Return-Path: <>
+Delivered-To: ayandap1@ayandap.com
+Received: from lh242.irandns.com
+	by lh242.irandns.com with LMTP
+	id 5m2uLosZgmL1ewcAzKNLfw
+	(envelope-from <>)
+	for <ayandap1@ayandap.com>; Mon, 16 May 2022 13:59:47 +0430
+Return-path: <>
+Envelope-to: ayandap1@ayandap.com
+Delivery-date: Mon, 16 May 2022 13:59:47 +0430
+Received: from mail by lh242.irandns.com with local (Exim 4.95)
+	id 1nqX2x-0024fn-Md
+	for ayandap1@ayandap.com;
+	Mon, 16 May 2022 13:59:47 +0430
+X-Failed-Recipients: sss@sss.sss
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@lh242.irandns.com>
+To: ayandap1@ayandap.com
+References: <1CqdFzGZ6xAJfiEkQduyGimjIZcoYYq9IOyoraP0Q@ayandap.com>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1652693387-eximdsn-1444781118
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1nqX2x-0024fn-Md@lh242.irandns.com>
+Date: Mon, 16 May 2022 13:59:47 +0430
+
+--1652693387-eximdsn-1444781118
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  sss@sss.sss
+    Unrouteable address
+
+--1652693387-eximdsn-1444781118
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; lh242.irandns.com
+
+Action: failed
+Final-Recipient: rfc822;sss@sss.sss
+Status: 5.0.0
+
+--1652693387-eximdsn-1444781118
+Content-type: message/rfc822
+
+Return-path: <ayandap1@ayandap.com>
+Received: from ayandap1 by lh242.irandns.com with local (Exim 4.95)
+	(envelope-from <ayandap1@ayandap.com>)
+	id 1nqX2x-0024fg-3y
+	for sss@sss.sss;
+	Mon, 16 May 2022 13:59:47 +0430
+To: sss@sss.sss
+Subject: =?UTF-8?B?W9ii24zZhtivINin2b5dINmG2LjYp9ix2Kog2qnZhtuM2K86ICLYp9uM2YYg?=  =?UTF-8?B?2b7YsdmG2K/ZhyDYr9ixINit2KfZhCDYqtmF2KfYtNin24wg2LTZhdin2LM=?=  =?UTF-8?B?2KohIg==?=
+X-PHP-Originating-Script: 1037:PHPMailer.php
+Date: Mon, 16 May 2022 09:29:47 +0000
+From: WordPress <wordpress@ayandap.com>
+Message-ID: <1CqdFzGZ6xAJfiEkQduyGimjIZcoYYq9IOyoraP0Q@ayandap.com>
+X-Mailer: PHPMailer 6.5.3 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+دیدگاه تازه‌ای در نوشتهٔ "این پرنده در حال تماشای شماست!" در انتظار بررسی شماست
+https://ayandap.com/this-bird-is-watching-for-you/
+
+نویسنده: Johnny (IP address: 185.220.101.78, tor-exit-78.cccs.de)
+ایمیل: 38878@gmail.com
+نشانی: 
+دیدگاه: 
+Did you notice??
+
+The traffic landscape has
+CHANGED drastically in 2022!
+
+People are not reading long
+blog posts, they are not watching
+long videos like they used to..
+
+Instead they're watching short, 
+snackable 15-30 sec videos on 
+YouTube, FB, TikTok..
+
+And If you don't want to get left 
+in the dust, but LEVERAGE it to 
+generate 10,000s of visitors 
+per day, then..
+
+GO HERE & START RIGHT NOW ==> https://bit.ly/39Uezmh
+
+Newbies, people with no real 
+skills, no experience, no idea, 
+and some just by pure luck, 
+unknowingly are making $500 
+to even $1,000 per day with 
+this traffic method.
+
+Here're some of the results 
+people getting with Shorts:
+
+- 3.5 Million views posting other people's videos
+- 24 million views posting 5 sec videos
+- 1.4 million views posting 30 sec review videos
+
+And the best part is ALL:
+
+- WITHOUT being on camera
+- WITHOUT running ads
+- WITHOUT subscribers
+- WITHOUT outsourcing
+
+With VidShortz, you can quickly 
+and easily create attention-grabbing 
+YouTube Shorts that drive traffic 
+& sales to your websites, blogs, 
+and offers in just 3 clicks..
+
+WATCH QUICK DEMO HERE ==> https://bit.ly/39Uezmh
+
+بپذیرید: https://ayandap.com/wp-admin/comment.php?action=approve&c=55#wpbody-content
+انتقال به زباله‌دان: https://ayandap.com/wp-admin/comment.php?action=trash&c=55#wpbody-content
+جفنگ کن: https://ayandap.com/wp-admin/comment.php?action=spam&c=55#wpbody-content
+هم‌اکنون 6 دیدگاه در انتظار بررسی هستند. لطفاً بخش مدیریت را ببینید.
+https://ayandap.com/wp-admin/edit-comments.php?comment_status=moderated#wpbody-content
+
+
+--1652693387-eximdsn-1444781118--

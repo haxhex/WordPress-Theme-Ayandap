@@ -1,0 +1,106 @@
+Return-Path: <>
+Delivered-To: ayandap1@ayandap.com
+Received: from lh242.irandns.com
+	by lh242.irandns.com with LMTP
+	id IGWIAfMFiWIIgjgAzKNLfw
+	(envelope-from <>)
+	for <ayandap1@ayandap.com>; Sat, 21 May 2022 20:02:03 +0430
+Return-path: <>
+Envelope-to: ayandap1@ayandap.com
+Delivery-date: Sat, 21 May 2022 20:02:03 +0430
+Received: from mail by lh242.irandns.com with local (Exim 4.95)
+	id 1nsR5G-00FYlz-Tp
+	for ayandap1@ayandap.com;
+	Sat, 21 May 2022 20:02:02 +0430
+X-Failed-Recipients: sss@sss.sss
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@lh242.irandns.com>
+To: ayandap1@ayandap.com
+References: <6P0vs0QM4lJqvHZvT1jGN1HcoN3rFThTefXd9TFIJQ@ayandap.com>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1653147122-eximdsn-1207223597
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1nsR5G-00FYlz-Tp@lh242.irandns.com>
+Date: Sat, 21 May 2022 20:02:02 +0430
+
+--1653147122-eximdsn-1207223597
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  sss@sss.sss
+    Unrouteable address
+
+--1653147122-eximdsn-1207223597
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; lh242.irandns.com
+
+Action: failed
+Final-Recipient: rfc822;sss@sss.sss
+Status: 5.0.0
+
+--1653147122-eximdsn-1207223597
+Content-type: message/rfc822
+
+Return-path: <ayandap1@ayandap.com>
+Received: from ayandap1 by lh242.irandns.com with local (Exim 4.95)
+	(envelope-from <ayandap1@ayandap.com>)
+	id 1nsR5G-00FYls-AX
+	for sss@sss.sss;
+	Sat, 21 May 2022 20:02:02 +0430
+To: sss@sss.sss
+Subject: =?UTF-8?B?W9ii24zZhtivINin2b5dINmG2LjYp9ix2Kog2qnZhtuM2K86ICLYp9uM2YYg?=  =?UTF-8?B?2b7YsdmG2K/ZhyDYr9ixINit2KfZhCDYqtmF2KfYtNin24wg2LTZhdin2LM=?=  =?UTF-8?B?2KohIg==?=
+X-PHP-Originating-Script: 1037:PHPMailer.php
+Date: Sat, 21 May 2022 15:32:02 +0000
+From: WordPress <wordpress@ayandap.com>
+Message-ID: <6P0vs0QM4lJqvHZvT1jGN1HcoN3rFThTefXd9TFIJQ@ayandap.com>
+X-Mailer: PHPMailer 6.5.3 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+دیدگاه تازه‌ای در نوشتهٔ "این پرنده در حال تماشای شماست!" در انتظار بررسی شماست
+https://ayandap.com/this-bird-is-watching-for-you/
+
+نویسنده: Johnny (IP address: 104.244.72.7, LuxembourgTor53.lu)
+ایمیل: 65668@gmail.com
+نشانی: https://bit.ly/3LyZx2L
+دیدگاه: 
+Click Sales Funnels & Readymade Sites 
+
+New Software = DFY Sites And Money-Making Sales Funnels
+Create Entire Sales Funnels In 60 Seconds Flat
+
+There’s no better way to passive online profits than by having sales pages & funnels set up for your own products or affiliate offers.
+
+What if you could instantly create premium readymade sites & funnels, sales pages and landing pages AND get all the traffic you want and all the email leads you’ll ever need
+ 
+BUT … without ever having to do any of the work yourself?
+ 
+Watch how you can do it now! ==> https://bit.ly/3LyZx2L
+
+The newly released ProfitFunnelz cloud app allows you to create multiple high-ranking sales pages and readymade affiliate sites with the push of a button (all from DONE-FOR-YOU templates!)
+ 
+You only need to add your Paypal account and you can start collecting passive sales.
+It even comes with hosting!
+
+Of course you can edit everything from the built-in templates if you want, or even create a brand new site, sales page or funnel from scratch - all with drag & drop simplicity and from over 400 built-in different modules, so you can mix and match until you get the best result.
+
+ProfitFunnelz is the fastest way to get you there by creating sales pages, sales funnels, landing pages and even entire sites with the push of a button and with drag & drop ease.
+ 
+These have been proven to work incredibly well at dominating social media, Google rankings and bringing in heaps of revenue and traffic.
+ 
+Watch all the proof right here ==> https://bit.ly/3LyZx2L
+
+بپذیرید: https://ayandap.com/wp-admin/comment.php?action=approve&c=56#wpbody-content
+انتقال به زباله‌دان: https://ayandap.com/wp-admin/comment.php?action=trash&c=56#wpbody-content
+جفنگ کن: https://ayandap.com/wp-admin/comment.php?action=spam&c=56#wpbody-content
+هم‌اکنون 7 دیدگاه در انتظار بررسی هستند. لطفاً بخش مدیریت را ببینید.
+https://ayandap.com/wp-admin/edit-comments.php?comment_status=moderated#wpbody-content
+
+
+--1653147122-eximdsn-1207223597--

