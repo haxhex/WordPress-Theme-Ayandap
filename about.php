@@ -152,10 +152,11 @@ Template Name: About
         <nav class="contact-navbar about-nav">
             <a href="<?php echo esc_url(home_url('/')); ?>">خانه</a>
             <a href="<?php echo esc_url(get_permalink(get_page_by_path('services'))); ?>">سرویس‌ها</a>
+            <a href="<?php echo esc_url(home_url('/')); ?>#services">سرویس‌ها</a>
             <a href="<?php echo esc_url(get_permalink(get_page_by_path('about-us'))); ?>">درباره ما</a>
             <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-us'))); ?>">تماس
                 با ما</a>
-            <a href="<?php echo esc_url(get_permalink(get_page_by_path('blog'))); ?>">بلاگ</a>
+            <a href="<?php echo esc_url(home_url('/')); ?>#blog">بلاگ</a>
             <div class="auth" style="margin-right: 372px;">
                 <a href="<?php echo esc_url(get_permalink(get_page_by_path('login'))); ?>">ورود</a>
                 <button class="register-btn" style="color:white;"

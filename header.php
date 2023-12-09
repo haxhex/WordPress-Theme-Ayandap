@@ -150,7 +150,7 @@
         <div class="left-header">
             <svg style="width: 130%; height: 100%;" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink" width="1446.045" height="365.982"
-                viewBox="0 0 1465 381.982">
+                viewBox="0 0 1465 373.98">
                 <defs>
                     <linearGradient id="linear-gradient" x1="0.871" y1="0.339" x2="-0.335" y2="-0.449"
                         gradientUnits="objectBoundingBox">
