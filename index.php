@@ -1450,7 +1450,7 @@
                         </svg>
 
                         <p>بازی و سرگرمی</p>
-                        <p style="font-size: 14px; margin-left: 5%; margin-right: 5%;">با دنبال کردن ما، با جدیدترین و سرگرم کننده‌ترین بازی ها آشنا شوید.</p>
+                        <p style="font-size: 14px; margin-left: 5%; margin-right: 5%;">با دنبال کردن ما، با جدیدترین و سرگرم کننده‌ترین بازی ها آشنا شوید.</p><br><br>
                             <a href="<?php echo esc_url(get_permalink(get_page_by_path('game'))); ?>"><button class="card-btn">بیشتر بدانیم</button></a>
                     </div>
                     <div class="services-card" style="background-color: #A5A2F6;">
@@ -1469,7 +1469,7 @@
                             </g>
                         </svg>
                         <p>خدمات بر پایه bluetooth</p>
-                        <p style="font-size: 14px;margin-left: 5%; margin-right: 5%;">باکیفیت ترین خدمات بر‌پایه‌ی بلوتوث را از ما بخواهید.</p>
+                        <p style="font-size: 14px;margin-left: 5%; margin-right: 5%;">باکیفیت ترین خدمات بر‌پایه‌ی بلوتوث را از ما بخواهید.</p><br><br>
                             <a href="<?php echo esc_url(get_permalink(get_page_by_path('bluetooth'))); ?>"><button class="card-btn">بیشتر بدانیم</button></a>
                     </div>
                     <div class="services-card" style="background-color: #4386D2;">
@@ -1496,7 +1496,7 @@
                         </svg>
 
                         <p>سایر اپلیکیشن </p>
-                        <p style="font-size: 14px; margin-left: 5%; margin-right: 5%;">با دیگر محصولات ما آشنا شوید.</p>
+                        <p style="font-size: 14px; margin-left: 5%; margin-right: 5%;">با دیگر محصولات ما آشنا شوید.</p><br><br>
                         <button class="card-btn">بیشتر بدانیم</button>
                     </div>
                 </div>
