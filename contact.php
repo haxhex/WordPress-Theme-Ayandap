@@ -190,8 +190,7 @@ Template Name: Contact
         <div class="conatct-content">
             <div class="contact-info">
                 <h2 style="font-weight: normal;">تماس با ما</h2>
-                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها
-                    و متون بلکه روزنامه و مجله در ستون </p>
+                <p>نظرات، پیشنهادات و سوالات خود را با ما به اشتراک بگذارید.</p>
             </div>
             <div class="contact-info">
                 <form action="contact-msg.php" method="post">
