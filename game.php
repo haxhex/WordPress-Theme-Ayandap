@@ -1,18 +1,18 @@
 <?php
 /*
-Template Name: Game
+Template Name: Nabegheha
 */
 // get_header();
 ?>
 
 <head>
-    <link href="https://fonts.cdnfonts.com/css/iranian-sans" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />    
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" type="image/x-icon">
 <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" type="image/x-icon">
-    <title>اپ بازی</title>
+    <title>نابغه‌ها</title>
 </head>
 
 <div id="content">
@@ -165,21 +165,45 @@ Template Name: Game
     </g>
   </g>
 </svg>
-
         </div>
 <div class="audio-app-content">
-    <h2 style="font-weight: normal;">معرفی اپلیکیشن بازی</h2>
-    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون  </p>
-    <button class="download-audio-btn">لینک دانلود اپلیکیشن</button>
+    <h2 style="font-weight: normal;">اپلیکیشن بازی《فیلم‌بین》</h2>
+    <p>دوستداران سینما در دنیای پر از هیجان و جذابِ بازیِ "فیلم‌بین"، با مجموعه ای از گزینه ها مواجه می شوند که می‌توانند اطلاعات و تیزبینی سینمایی خودشان را به چالش بکشند‌.
+<br>
+با هر جواب درست، امتیاز خودتون رو بالاتر ببرید و یک پله به قله‌ی فیلم‌بازها نزدیک‌تر بشید!
+<br>
+اما این بازی یک ماراتنِ تک‌نفره نیست! می‌توانید با دوستان خودتان، به رقابت بپردازید و در فضای دوستانه‌ی رقابت، اوقات خوشی رو بگذرانید.</p>
+                    <a href="https://cafebazaar.ir/app/com.truedream.nabegheha">
+<button class="download-audio-btn">دانلود اپلیکیشن</button>
+</a>
 </div>
     </div>
-    <div class="audio-features">
-        <div class="audio-features-content">
-        <h2 style="font-weight: normal; margin-top: 87px;">ویژگی های اپلیکیشن گیم</h2>
-        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون  </p>
-        </div>
+
+
+        <div class="audio-features fst-game">
+            <div class="audio-features-content game-players" style=" margin-top: 87px;">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/nab-best.png" alt="nabegheha" style="width: 100%;">
+    </div>
+    <div class="audio-features-content" style="margin-top: 80px;">
+        <h2 style="font-weight: normal;">چی باعث میشه "فیلم‌بین" خاص باشه؟</h2>
+        <p><b>دنیایی از فیلم:</b> تو فیلم‌بین، با انبوهی از سوالای مختلف از قدیمی‌ترین تا جدیدترین اکران‌ها مواجه می‌شید. فرقی نمی‌کنه طرفدار چه ژانری باشید، تو سینماباز حتما سوالایی پیدا می‌کنید که شما رو به چالش بکشه!<br>
+
+<b>سطح‌بندی هیجان‌انگیز:</b> تو این اپلیکیشن، با هر درست جواب دادن، به مراحل بالاتر می‌رید و چالش‌های سخت‌تری در انتظار شماست. پس آماده باشید تا دانش و حافظه‌تون رو حسابی به کار بگیرید!<br>
+
+<b>دوئل‌های سینمایی:</b> دوستاتون رو به دوئل‌های سینمایی دعوت کنید و ببینید کی سلطان واقعی فیلمه! تو این بخش، می‌تونید با دوستاتون به صورت آنلاین رقابت کنید و حسابی به هم خوش بگذرونید.<br>
+
+<b>امتیاز و رتبه‌بندی:</b> هرچی سوالای بیشتری رو درست جواب بدید، امتیازتون بالاتر می‌ره و تو جدول رده‌بندی بالا می‌رید. پس تلاش کنید تا به صدر جدول برسید و به همه نشون بدید که یه سینماباز حرفه‌ای هستید!</p>
+    </div>
+</div>
+
+        <div class="audio-features" style="margin-top: 66%;">
+
+    <div class="audio-features-content" style="margin-top: 80px;">
+        <h2 style="font-weight: normal;"></h2>
+        <p>این بازی به زودی در دسترس قرار می‌گیره... منتظر این بازی جذاب باشید!</p>
+    </div>
         <div class="audio-features-content game-players">
-        <svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 624.766 446.495">
+                <svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 624.766 446.495">
   <g id="Group_614" data-name="Group 614" transform="translate(-206.333 -230.274)">
     <g id="Group_604" data-name="Group 604" transform="translate(206.333 406.597)">
       <g id="Group_600" data-name="Group 600" transform="translate(130.798 17.473)">
@@ -275,10 +299,11 @@ Template Name: Game
     </g>
   </g>
 </svg>
+</div>
+</div>
 
 
-        </div>
-    </div>
+
 <div class="audio-footer-image game-footer-img">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1065.45" height="870.829" viewBox="0 0 1065.45 870.829">
   <defs>
@@ -377,4 +402,9 @@ Template Name: Game
 
         // Update the transform when the window is resized
         window.addEventListener("resize", updateTransform);
-</script>
+</script><?php
+/*
+Template Name: Nabegheha
+*/
+// get_header();
+?>
